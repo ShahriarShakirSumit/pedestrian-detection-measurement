@@ -1,0 +1,2093 @@
+{
+  "dataset": "LLVIP",
+  "split": "test",
+  "n_pairs": 3463,
+  "n_people": 8302,
+  "design": "registered visible/infrared pairs with one shared annotation; the two evaluations differ only in input modality",
+  "caveat": "all detectors are COCO-pretrained on visible imagery, so the infrared column is a domain-shift measurement, not a multispectral detector comparison",
+  "results": {
+    "yolov3u": {
+      "visible": {
+        "MR": 33.41,
+        "AP50": 80.45,
+        "recall": 85.46,
+        "seconds": 115.5
+      },
+      "infrared": {
+        "MR": 30.32,
+        "AP50": 82.68,
+        "recall": 88.91,
+        "seconds": 111.8
+      },
+      "modality_gap_MR": -3.09
+    },
+    "yolov3_tinyu": {
+      "visible": {
+        "MR": 50.49,
+        "AP50": 66.22,
+        "recall": 77.17,
+        "seconds": 59.6
+      },
+      "infrared": {
+        "MR": 53.14,
+        "AP50": 64.51,
+        "recall": 83.11,
+        "seconds": 59.7
+      },
+      "modality_gap_MR": 2.65
+    },
+    "yolov3_sppu": {
+      "visible": {
+        "MR": 33.69,
+        "AP50": 80.59,
+        "recall": 86.29,
+        "seconds": 113.5
+      },
+      "infrared": {
+        "MR": 30.75,
+        "AP50": 82.18,
+        "recall": 88.88,
+        "seconds": 109.4
+      },
+      "modality_gap_MR": -2.94
+    },
+    "yolov5nu": {
+      "visible": {
+        "MR": 43.39,
+        "AP50": 72.98,
+        "recall": 82.82,
+        "seconds": 57.9
+      },
+      "infrared": {
+        "MR": 53.83,
+        "AP50": 62.39,
+        "recall": 79.45,
+        "seconds": 54.7
+      },
+      "modality_gap_MR": 10.44
+    },
+    "yolov5su": {
+      "visible": {
+        "MR": 38.66,
+        "AP50": 77.47,
+        "recall": 85.86,
+        "seconds": 65.0
+      },
+      "infrared": {
+        "MR": 41.18,
+        "AP50": 73.79,
+        "recall": 85.33,
+        "seconds": 61.8
+      },
+      "modality_gap_MR": 2.52
+    },
+    "yolov5mu": {
+      "visible": {
+        "MR": 34.75,
+        "AP50": 79.67,
+        "recall": 86.16,
+        "seconds": 76.0
+      },
+      "infrared": {
+        "MR": 34.78,
+        "AP50": 79.67,
+        "recall": 88.11,
+        "seconds": 72.4
+      },
+      "modality_gap_MR": 0.03
+    },
+    "yolov5lu": {
+      "visible": {
+        "MR": 33.14,
+        "AP50": 81.39,
+        "recall": 87.77,
+        "seconds": 90.0
+      },
+      "infrared": {
+        "MR": 29.21,
+        "AP50": 84.02,
+        "recall": 91.79,
+        "seconds": 87.1
+      },
+      "modality_gap_MR": -3.93
+    },
+    "yolov5xu": {
+      "visible": {
+        "MR": 32.4,
+        "AP50": 82.58,
+        "recall": 88.86,
+        "seconds": 128.0
+      },
+      "infrared": {
+        "MR": 26.96,
+        "AP50": 84.92,
+        "recall": 90.73,
+        "seconds": 125.6
+      },
+      "modality_gap_MR": -5.44
+    },
+    "yolov8n": {
+      "visible": {
+        "MR": 42.08,
+        "AP50": 73.01,
+        "recall": 83.15,
+        "seconds": 61.1
+      },
+      "infrared": {
+        "MR": 44.79,
+        "AP50": 70.78,
+        "recall": 84.47,
+        "seconds": 54.6
+      },
+      "modality_gap_MR": 2.71
+    },
+    "yolov8s": {
+      "visible": {
+        "MR": 38.14,
+        "AP50": 76.89,
+        "recall": 85.55,
+        "seconds": 63.6
+      },
+      "infrared": {
+        "MR": 40.62,
+        "AP50": 75.73,
+        "recall": 87.61,
+        "seconds": 60.3
+      },
+      "modality_gap_MR": 2.48
+    },
+    "yolov8m": {
+      "visible": {
+        "MR": 34.01,
+        "AP50": 79.93,
+        "recall": 86.57,
+        "seconds": 79.5
+      },
+      "infrared": {
+        "MR": 33.82,
+        "AP50": 79.87,
+        "recall": 88.98,
+        "seconds": 76.9
+      },
+      "modality_gap_MR": -0.19
+    },
+    "yolov8l": {
+      "visible": {
+        "MR": 30.18,
+        "AP50": 83.27,
+        "recall": 88.7,
+        "seconds": 96.1
+      },
+      "infrared": {
+        "MR": 29.54,
+        "AP50": 83.41,
+        "recall": 90.3,
+        "seconds": 93.6
+      },
+      "modality_gap_MR": -0.64
+    },
+    "yolov8x": {
+      "visible": {
+        "MR": 31.7,
+        "AP50": 83.24,
+        "recall": 89.32,
+        "seconds": 129.0
+      },
+      "infrared": {
+        "MR": 32.83,
+        "AP50": 81.97,
+        "recall": 90.13,
+        "seconds": 127.2
+      },
+      "modality_gap_MR": 1.13
+    },
+    "yolov9t": {
+      "visible": {
+        "MR": 41.58,
+        "AP50": 74.22,
+        "recall": 83.88,
+        "seconds": 61.3
+      },
+      "infrared": {
+        "MR": 42.09,
+        "AP50": 74.77,
+        "recall": 87.17,
+        "seconds": 58.6
+      },
+      "modality_gap_MR": 0.51
+    },
+    "yolov9s": {
+      "visible": {
+        "MR": 34.09,
+        "AP50": 79.98,
+        "recall": 86.77,
+        "seconds": 67.1
+      },
+      "infrared": {
+        "MR": 37.3,
+        "AP50": 78.53,
+        "recall": 88.86,
+        "seconds": 63.3
+      },
+      "modality_gap_MR": 3.21
+    },
+    "yolov9m": {
+      "visible": {
+        "MR": 34.54,
+        "AP50": 80.49,
+        "recall": 87.87,
+        "seconds": 81.5
+      },
+      "infrared": {
+        "MR": 32.31,
+        "AP50": 81.74,
+        "recall": 89.81,
+        "seconds": 78.0
+      },
+      "modality_gap_MR": -2.23
+    },
+    "yolov9c": {
+      "visible": {
+        "MR": 31.29,
+        "AP50": 82.98,
+        "recall": 88.98,
+        "seconds": 89.9
+      },
+      "infrared": {
+        "MR": 30.48,
+        "AP50": 83.3,
+        "recall": 90.05,
+        "seconds": 85.6
+      },
+      "modality_gap_MR": -0.81
+    },
+    "yolov9e": {
+      "visible": {
+        "MR": 31.01,
+        "AP50": 83.43,
+        "recall": 89.12,
+        "seconds": 133.1
+      },
+      "infrared": {
+        "MR": 24.52,
+        "AP50": 87.35,
+        "recall": 92.38,
+        "seconds": 129.3
+      },
+      "modality_gap_MR": -6.49
+    },
+    "yolov10n": {
+      "visible": {
+        "MR": 40.15,
+        "AP50": 75.99,
+        "recall": 85.71,
+        "seconds": 58.2
+      },
+      "infrared": {
+        "MR": 45.72,
+        "AP50": 72.34,
+        "recall": 86.77,
+        "seconds": 54.9
+      },
+      "modality_gap_MR": 5.57
+    },
+    "yolov10s": {
+      "visible": {
+        "MR": 33.91,
+        "AP50": 80.79,
+        "recall": 87.68,
+        "seconds": 63.3
+      },
+      "infrared": {
+        "MR": 36.87,
+        "AP50": 79.33,
+        "recall": 88.98,
+        "seconds": 59.8
+      },
+      "modality_gap_MR": 2.96
+    },
+    "yolov10m": {
+      "visible": {
+        "MR": 31.64,
+        "AP50": 82.62,
+        "recall": 88.79,
+        "seconds": 76.0
+      },
+      "infrared": {
+        "MR": 33.41,
+        "AP50": 81.86,
+        "recall": 90.63,
+        "seconds": 73.2
+      },
+      "modality_gap_MR": 1.77
+    },
+    "yolov10b": {
+      "visible": {
+        "MR": 32.08,
+        "AP50": 81.44,
+        "recall": 87.33,
+        "seconds": 81.8
+      },
+      "infrared": {
+        "MR": 30.3,
+        "AP50": 83.9,
+        "recall": 90.85,
+        "seconds": 79.4
+      },
+      "modality_gap_MR": -1.78
+    },
+    "yolov10l": {
+      "visible": {
+        "MR": 30.87,
+        "AP50": 82.94,
+        "recall": 89.44,
+        "seconds": 90.3
+      },
+      "infrared": {
+        "MR": 28.58,
+        "AP50": 84.68,
+        "recall": 91.89,
+        "seconds": 87.1
+      },
+      "modality_gap_MR": -2.29
+    },
+    "yolov10x": {
+      "visible": {
+        "MR": 31.25,
+        "AP50": 82.84,
+        "recall": 88.58,
+        "seconds": 114.7
+      },
+      "infrared": {
+        "MR": 31.73,
+        "AP50": 83.5,
+        "recall": 91.26,
+        "seconds": 111.9
+      },
+      "modality_gap_MR": 0.48
+    },
+    "yolo11n": {
+      "visible": {
+        "MR": 39.31,
+        "AP50": 77.55,
+        "recall": 87.42,
+        "seconds": 60.0
+      },
+      "infrared": {
+        "MR": 45.01,
+        "AP50": 73.05,
+        "recall": 86.39,
+        "seconds": 56.6
+      },
+      "modality_gap_MR": 5.7
+    },
+    "yolo11s": {
+      "visible": {
+        "MR": 35.26,
+        "AP50": 80.33,
+        "recall": 88.48,
+        "seconds": 65.1
+      },
+      "infrared": {
+        "MR": 36.25,
+        "AP50": 79.1,
+        "recall": 89.1,
+        "seconds": 62.6
+      },
+      "modality_gap_MR": 0.99
+    },
+    "yolo11m": {
+      "visible": {
+        "MR": 33.25,
+        "AP50": 81.93,
+        "recall": 88.35,
+        "seconds": 77.8
+      },
+      "infrared": {
+        "MR": 34.24,
+        "AP50": 81.46,
+        "recall": 89.91,
+        "seconds": 74.3
+      },
+      "modality_gap_MR": 0.99
+    },
+    "yolo11l": {
+      "visible": {
+        "MR": 30.91,
+        "AP50": 82.54,
+        "recall": 88.14,
+        "seconds": 86.5
+      },
+      "infrared": {
+        "MR": 29.56,
+        "AP50": 83.91,
+        "recall": 90.8,
+        "seconds": 84.0
+      },
+      "modality_gap_MR": -1.35
+    },
+    "yolo11x": {
+      "visible": {
+        "MR": 30.23,
+        "AP50": 83.92,
+        "recall": 89.62,
+        "seconds": 117.7
+      },
+      "infrared": {
+        "MR": 27.31,
+        "AP50": 85.85,
+        "recall": 91.82,
+        "seconds": 116.5
+      },
+      "modality_gap_MR": -2.92
+    },
+    "yolo12n": {
+      "visible": {
+        "MR": 39.19,
+        "AP50": 76.73,
+        "recall": 85.49,
+        "seconds": 61.2
+      },
+      "infrared": {
+        "MR": 45.28,
+        "AP50": 75.12,
+        "recall": 88.76,
+        "seconds": 59.0
+      },
+      "modality_gap_MR": 6.09
+    },
+    "yolo12s": {
+      "visible": {
+        "MR": 31.28,
+        "AP50": 82.87,
+        "recall": 88.87,
+        "seconds": 68.2
+      },
+      "infrared": {
+        "MR": 31.84,
+        "AP50": 81.71,
+        "recall": 89.47,
+        "seconds": 64.9
+      },
+      "modality_gap_MR": 0.56
+    },
+    "yolo12m": {
+      "visible": {
+        "MR": 31.79,
+        "AP50": 82.68,
+        "recall": 88.5,
+        "seconds": 83.1
+      },
+      "infrared": {
+        "MR": 38.87,
+        "AP50": 81.37,
+        "recall": 90.77,
+        "seconds": 81.0
+      },
+      "modality_gap_MR": 7.08
+    },
+    "yolo12l": {
+      "visible": {
+        "MR": 30.47,
+        "AP50": 84.42,
+        "recall": 89.97,
+        "seconds": 99.7
+      },
+      "infrared": {
+        "MR": 30.73,
+        "AP50": 84.01,
+        "recall": 90.47,
+        "seconds": 97.0
+      },
+      "modality_gap_MR": 0.26
+    },
+    "yolo12x": {
+      "visible": {
+        "MR": 28.99,
+        "AP50": 85.25,
+        "recall": 90.06,
+        "seconds": 137.1
+      },
+      "infrared": {
+        "MR": 32.68,
+        "AP50": 82.12,
+        "recall": 88.74,
+        "seconds": 134.4
+      },
+      "modality_gap_MR": 3.69
+    },
+    "yolo26n": {
+      "visible": {
+        "MR": 38.64,
+        "AP50": 77.56,
+        "recall": 85.75,
+        "seconds": 58.5
+      },
+      "infrared": {
+        "MR": 45.93,
+        "AP50": 71.34,
+        "recall": 83.2,
+        "seconds": 54.4
+      },
+      "modality_gap_MR": 7.29
+    },
+    "yolo26s": {
+      "visible": {
+        "MR": 34.11,
+        "AP50": 80.65,
+        "recall": 87.55,
+        "seconds": 62.3
+      },
+      "infrared": {
+        "MR": 36.36,
+        "AP50": 79.61,
+        "recall": 88.39,
+        "seconds": 61.0
+      },
+      "modality_gap_MR": 2.25
+    },
+    "yolo26m": {
+      "visible": {
+        "MR": 30.61,
+        "AP50": 83.81,
+        "recall": 90.11,
+        "seconds": 75.3
+      },
+      "infrared": {
+        "MR": 34.78,
+        "AP50": 80.89,
+        "recall": 89.57,
+        "seconds": 72.9
+      },
+      "modality_gap_MR": 4.17
+    },
+    "yolo26l": {
+      "visible": {
+        "MR": 33.38,
+        "AP50": 81.48,
+        "recall": 88.05,
+        "seconds": 84.5
+      },
+      "infrared": {
+        "MR": 31.35,
+        "AP50": 84.03,
+        "recall": 91.83,
+        "seconds": 80.1
+      },
+      "modality_gap_MR": -2.03
+    },
+    "yolo26x": {
+      "visible": {
+        "MR": 30.29,
+        "AP50": 84.92,
+        "recall": 90.82,
+        "seconds": 115.9
+      },
+      "infrared": {
+        "MR": 28.06,
+        "AP50": 85.77,
+        "recall": 92.75,
+        "seconds": 113.8
+      },
+      "modality_gap_MR": -2.23
+    },
+    "rtdetr_l": {
+      "visible": {
+        "MR": 34.14,
+        "AP50": 81.6,
+        "recall": 94.84,
+        "seconds": 111.3
+      },
+      "infrared": {
+        "MR": 32.37,
+        "AP50": 81.45,
+        "recall": 94.64,
+        "seconds": 110.3
+      },
+      "modality_gap_MR": -1.77
+    },
+    "rtdetr_x": {
+      "visible": {
+        "MR": 33.83,
+        "AP50": 82.75,
+        "recall": 95.7,
+        "seconds": 166.1
+      },
+      "infrared": {
+        "MR": 32.28,
+        "AP50": 82.36,
+        "recall": 95.62,
+        "seconds": 164.3
+      },
+      "modality_gap_MR": -1.55
+    },
+    "faster_rcnn_r50_fpn_v2": {
+      "visible": {
+        "MR": 37.1,
+        "AP50": 78.86,
+        "recall": 87.85,
+        "seconds": 253.0
+      },
+      "infrared": {
+        "MR": 37.9,
+        "AP50": 78.6,
+        "recall": 90.85,
+        "seconds": 250.3
+      },
+      "modality_gap_MR": 0.8
+    },
+    "retinanet_r50_fpn_v2": {
+      "visible": {
+        "MR": 47.94,
+        "AP50": 69.45,
+        "recall": 83.74,
+        "seconds": 205.7
+      },
+      "infrared": {
+        "MR": 51.98,
+        "AP50": 70.03,
+        "recall": 89.48,
+        "seconds": 199.6
+      },
+      "modality_gap_MR": 4.04
+    },
+    "fcos_r50_fpn": {
+      "visible": {
+        "MR": 49.28,
+        "AP50": 68.14,
+        "recall": 82.06,
+        "seconds": 209.9
+      },
+      "infrared": {
+        "MR": 57.57,
+        "AP50": 61.91,
+        "recall": 81.37,
+        "seconds": 198.3
+      },
+      "modality_gap_MR": 8.29
+    },
+    "ssd300_vgg16": {
+      "visible": {
+        "MR": 50.4,
+        "AP50": 65.85,
+        "recall": 83.93,
+        "seconds": 124.6
+      },
+      "infrared": {
+        "MR": 69.07,
+        "AP50": 52.68,
+        "recall": 83.84,
+        "seconds": 111.5
+      },
+      "modality_gap_MR": 18.67
+    },
+    "ssdlite320_mnv3": {
+      "visible": {
+        "MR": 66.3,
+        "AP50": 52.58,
+        "recall": 85.24,
+        "seconds": 126.0
+      },
+      "infrared": {
+        "MR": 92.71,
+        "AP50": 14.54,
+        "recall": 64.27,
+        "seconds": 109.7
+      },
+      "modality_gap_MR": 26.41
+    }
+  },
+  "bootstrap": {
+    "per_model": {
+      "yolov3u::visible": {
+        "MR": {
+          "point": 33.41,
+          "ci_low": 31.51,
+          "ci_high": 35.52,
+          "boot_sd": 1.024
+        },
+        "AP50": {
+          "point": 80.45,
+          "ci_low": 79.38,
+          "ci_high": 81.32,
+          "boot_sd": 0.509
+        }
+      },
+      "yolov3u::infrared": {
+        "MR": {
+          "point": 30.32,
+          "ci_low": 29.19,
+          "ci_high": 31.64,
+          "boot_sd": 0.617
+        },
+        "AP50": {
+          "point": 82.68,
+          "ci_low": 81.76,
+          "ci_high": 83.46,
+          "boot_sd": 0.452
+        }
+      },
+      "yolov3_tinyu::visible": {
+        "MR": {
+          "point": 50.49,
+          "ci_low": 48.94,
+          "ci_high": 51.9,
+          "boot_sd": 0.784
+        },
+        "AP50": {
+          "point": 66.22,
+          "ci_low": 65.11,
+          "ci_high": 67.36,
+          "boot_sd": 0.605
+        }
+      },
+      "yolov3_tinyu::infrared": {
+        "MR": {
+          "point": 53.14,
+          "ci_low": 51.73,
+          "ci_high": 54.51,
+          "boot_sd": 0.713
+        },
+        "AP50": {
+          "point": 64.51,
+          "ci_low": 63.35,
+          "ci_high": 65.67,
+          "boot_sd": 0.591
+        }
+      },
+      "yolov3_sppu::visible": {
+        "MR": {
+          "point": 33.69,
+          "ci_low": 31.85,
+          "ci_high": 35.59,
+          "boot_sd": 0.94
+        },
+        "AP50": {
+          "point": 80.59,
+          "ci_low": 79.58,
+          "ci_high": 81.54,
+          "boot_sd": 0.495
+        }
+      },
+      "yolov3_sppu::infrared": {
+        "MR": {
+          "point": 30.75,
+          "ci_low": 29.41,
+          "ci_high": 32.2,
+          "boot_sd": 0.725
+        },
+        "AP50": {
+          "point": 82.18,
+          "ci_low": 81.26,
+          "ci_high": 83.04,
+          "boot_sd": 0.475
+        }
+      },
+      "yolov5nu::visible": {
+        "MR": {
+          "point": 43.39,
+          "ci_low": 41.42,
+          "ci_high": 45.29,
+          "boot_sd": 0.952
+        },
+        "AP50": {
+          "point": 72.98,
+          "ci_low": 71.9,
+          "ci_high": 74.01,
+          "boot_sd": 0.558
+        }
+      },
+      "yolov5nu::infrared": {
+        "MR": {
+          "point": 53.83,
+          "ci_low": 52.59,
+          "ci_high": 55.11,
+          "boot_sd": 0.67
+        },
+        "AP50": {
+          "point": 62.39,
+          "ci_low": 61.15,
+          "ci_high": 63.53,
+          "boot_sd": 0.609
+        }
+      },
+      "yolov5su::visible": {
+        "MR": {
+          "point": 38.66,
+          "ci_low": 36.85,
+          "ci_high": 40.63,
+          "boot_sd": 0.987
+        },
+        "AP50": {
+          "point": 77.47,
+          "ci_low": 76.38,
+          "ci_high": 78.45,
+          "boot_sd": 0.547
+        }
+      },
+      "yolov5su::infrared": {
+        "MR": {
+          "point": 41.18,
+          "ci_low": 39.83,
+          "ci_high": 42.48,
+          "boot_sd": 0.721
+        },
+        "AP50": {
+          "point": 73.79,
+          "ci_low": 72.72,
+          "ci_high": 74.84,
+          "boot_sd": 0.565
+        }
+      },
+      "yolov5mu::visible": {
+        "MR": {
+          "point": 34.75,
+          "ci_low": 32.79,
+          "ci_high": 36.79,
+          "boot_sd": 0.983
+        },
+        "AP50": {
+          "point": 79.67,
+          "ci_low": 78.66,
+          "ci_high": 80.63,
+          "boot_sd": 0.516
+        }
+      },
+      "yolov5mu::infrared": {
+        "MR": {
+          "point": 34.78,
+          "ci_low": 33.34,
+          "ci_high": 36.2,
+          "boot_sd": 0.726
+        },
+        "AP50": {
+          "point": 79.67,
+          "ci_low": 78.61,
+          "ci_high": 80.61,
+          "boot_sd": 0.521
+        }
+      },
+      "yolov5lu::visible": {
+        "MR": {
+          "point": 33.14,
+          "ci_low": 31.24,
+          "ci_high": 34.95,
+          "boot_sd": 0.981
+        },
+        "AP50": {
+          "point": 81.39,
+          "ci_low": 80.46,
+          "ci_high": 82.36,
+          "boot_sd": 0.496
+        }
+      },
+      "yolov5lu::infrared": {
+        "MR": {
+          "point": 29.21,
+          "ci_low": 27.96,
+          "ci_high": 30.47,
+          "boot_sd": 0.668
+        },
+        "AP50": {
+          "point": 84.02,
+          "ci_low": 83.07,
+          "ci_high": 84.9,
+          "boot_sd": 0.449
+        }
+      },
+      "yolov5xu::visible": {
+        "MR": {
+          "point": 32.4,
+          "ci_low": 30.63,
+          "ci_high": 34.1,
+          "boot_sd": 0.905
+        },
+        "AP50": {
+          "point": 82.58,
+          "ci_low": 81.62,
+          "ci_high": 83.53,
+          "boot_sd": 0.486
+        }
+      },
+      "yolov5xu::infrared": {
+        "MR": {
+          "point": 26.96,
+          "ci_low": 25.72,
+          "ci_high": 28.33,
+          "boot_sd": 0.685
+        },
+        "AP50": {
+          "point": 84.92,
+          "ci_low": 84.0,
+          "ci_high": 85.76,
+          "boot_sd": 0.447
+        }
+      },
+      "yolov8n::visible": {
+        "MR": {
+          "point": 42.08,
+          "ci_low": 39.81,
+          "ci_high": 43.9,
+          "boot_sd": 0.984
+        },
+        "AP50": {
+          "point": 73.01,
+          "ci_low": 71.88,
+          "ci_high": 74.1,
+          "boot_sd": 0.563
+        }
+      },
+      "yolov8n::infrared": {
+        "MR": {
+          "point": 44.79,
+          "ci_low": 43.44,
+          "ci_high": 46.04,
+          "boot_sd": 0.674
+        },
+        "AP50": {
+          "point": 70.78,
+          "ci_low": 69.67,
+          "ci_high": 71.86,
+          "boot_sd": 0.557
+        }
+      },
+      "yolov8s::visible": {
+        "MR": {
+          "point": 38.14,
+          "ci_low": 36.2,
+          "ci_high": 40.14,
+          "boot_sd": 1.0
+        },
+        "AP50": {
+          "point": 76.89,
+          "ci_low": 75.86,
+          "ci_high": 77.9,
+          "boot_sd": 0.545
+        }
+      },
+      "yolov8s::infrared": {
+        "MR": {
+          "point": 40.62,
+          "ci_low": 39.2,
+          "ci_high": 42.11,
+          "boot_sd": 0.72
+        },
+        "AP50": {
+          "point": 75.73,
+          "ci_low": 74.7,
+          "ci_high": 76.71,
+          "boot_sd": 0.532
+        }
+      },
+      "yolov8m::visible": {
+        "MR": {
+          "point": 34.01,
+          "ci_low": 32.26,
+          "ci_high": 35.95,
+          "boot_sd": 0.901
+        },
+        "AP50": {
+          "point": 79.93,
+          "ci_low": 78.91,
+          "ci_high": 80.85,
+          "boot_sd": 0.5
+        }
+      },
+      "yolov8m::infrared": {
+        "MR": {
+          "point": 33.82,
+          "ci_low": 32.58,
+          "ci_high": 35.18,
+          "boot_sd": 0.671
+        },
+        "AP50": {
+          "point": 79.87,
+          "ci_low": 78.83,
+          "ci_high": 80.81,
+          "boot_sd": 0.491
+        }
+      },
+      "yolov8l::visible": {
+        "MR": {
+          "point": 30.18,
+          "ci_low": 28.44,
+          "ci_high": 32.09,
+          "boot_sd": 0.929
+        },
+        "AP50": {
+          "point": 83.27,
+          "ci_low": 82.29,
+          "ci_high": 84.16,
+          "boot_sd": 0.472
+        }
+      },
+      "yolov8l::infrared": {
+        "MR": {
+          "point": 29.54,
+          "ci_low": 28.27,
+          "ci_high": 30.86,
+          "boot_sd": 0.648
+        },
+        "AP50": {
+          "point": 83.41,
+          "ci_low": 82.52,
+          "ci_high": 84.24,
+          "boot_sd": 0.44
+        }
+      },
+      "yolov8x::visible": {
+        "MR": {
+          "point": 31.7,
+          "ci_low": 29.99,
+          "ci_high": 33.45,
+          "boot_sd": 0.909
+        },
+        "AP50": {
+          "point": 83.24,
+          "ci_low": 82.33,
+          "ci_high": 84.19,
+          "boot_sd": 0.481
+        }
+      },
+      "yolov8x::infrared": {
+        "MR": {
+          "point": 32.83,
+          "ci_low": 31.55,
+          "ci_high": 34.13,
+          "boot_sd": 0.677
+        },
+        "AP50": {
+          "point": 81.97,
+          "ci_low": 80.95,
+          "ci_high": 82.84,
+          "boot_sd": 0.466
+        }
+      },
+      "yolov9t::visible": {
+        "MR": {
+          "point": 41.58,
+          "ci_low": 39.91,
+          "ci_high": 43.45,
+          "boot_sd": 0.901
+        },
+        "AP50": {
+          "point": 74.22,
+          "ci_low": 73.11,
+          "ci_high": 75.29,
+          "boot_sd": 0.55
+        }
+      },
+      "yolov9t::infrared": {
+        "MR": {
+          "point": 42.09,
+          "ci_low": 40.48,
+          "ci_high": 43.6,
+          "boot_sd": 0.84
+        },
+        "AP50": {
+          "point": 74.77,
+          "ci_low": 73.62,
+          "ci_high": 75.93,
+          "boot_sd": 0.571
+        }
+      },
+      "yolov9s::visible": {
+        "MR": {
+          "point": 34.09,
+          "ci_low": 32.57,
+          "ci_high": 36.03,
+          "boot_sd": 0.91
+        },
+        "AP50": {
+          "point": 79.98,
+          "ci_low": 79.0,
+          "ci_high": 80.88,
+          "boot_sd": 0.505
+        }
+      },
+      "yolov9s::infrared": {
+        "MR": {
+          "point": 37.3,
+          "ci_low": 35.97,
+          "ci_high": 38.78,
+          "boot_sd": 0.7
+        },
+        "AP50": {
+          "point": 78.53,
+          "ci_low": 77.47,
+          "ci_high": 79.47,
+          "boot_sd": 0.496
+        }
+      },
+      "yolov9m::visible": {
+        "MR": {
+          "point": 34.54,
+          "ci_low": 32.85,
+          "ci_high": 36.55,
+          "boot_sd": 0.943
+        },
+        "AP50": {
+          "point": 80.49,
+          "ci_low": 79.55,
+          "ci_high": 81.5,
+          "boot_sd": 0.508
+        }
+      },
+      "yolov9m::infrared": {
+        "MR": {
+          "point": 32.31,
+          "ci_low": 31.01,
+          "ci_high": 33.7,
+          "boot_sd": 0.687
+        },
+        "AP50": {
+          "point": 81.74,
+          "ci_low": 80.76,
+          "ci_high": 82.57,
+          "boot_sd": 0.47
+        }
+      },
+      "yolov9c::visible": {
+        "MR": {
+          "point": 31.29,
+          "ci_low": 29.47,
+          "ci_high": 33.16,
+          "boot_sd": 0.909
+        },
+        "AP50": {
+          "point": 82.98,
+          "ci_low": 82.08,
+          "ci_high": 83.9,
+          "boot_sd": 0.485
+        }
+      },
+      "yolov9c::infrared": {
+        "MR": {
+          "point": 30.48,
+          "ci_low": 29.16,
+          "ci_high": 31.89,
+          "boot_sd": 0.714
+        },
+        "AP50": {
+          "point": 83.3,
+          "ci_low": 82.37,
+          "ci_high": 84.14,
+          "boot_sd": 0.447
+        }
+      },
+      "yolov9e::visible": {
+        "MR": {
+          "point": 31.01,
+          "ci_low": 29.11,
+          "ci_high": 32.82,
+          "boot_sd": 0.946
+        },
+        "AP50": {
+          "point": 83.43,
+          "ci_low": 82.43,
+          "ci_high": 84.34,
+          "boot_sd": 0.479
+        }
+      },
+      "yolov9e::infrared": {
+        "MR": {
+          "point": 24.52,
+          "ci_low": 23.23,
+          "ci_high": 26.03,
+          "boot_sd": 0.699
+        },
+        "AP50": {
+          "point": 87.35,
+          "ci_low": 86.55,
+          "ci_high": 88.03,
+          "boot_sd": 0.396
+        }
+      },
+      "yolov10n::visible": {
+        "MR": {
+          "point": 40.15,
+          "ci_low": 38.39,
+          "ci_high": 42.15,
+          "boot_sd": 0.956
+        },
+        "AP50": {
+          "point": 75.99,
+          "ci_low": 74.93,
+          "ci_high": 77.03,
+          "boot_sd": 0.551
+        }
+      },
+      "yolov10n::infrared": {
+        "MR": {
+          "point": 45.72,
+          "ci_low": 44.14,
+          "ci_high": 47.14,
+          "boot_sd": 0.726
+        },
+        "AP50": {
+          "point": 72.34,
+          "ci_low": 71.17,
+          "ci_high": 73.53,
+          "boot_sd": 0.573
+        }
+      },
+      "yolov10s::visible": {
+        "MR": {
+          "point": 33.91,
+          "ci_low": 32.17,
+          "ci_high": 35.83,
+          "boot_sd": 0.928
+        },
+        "AP50": {
+          "point": 80.79,
+          "ci_low": 79.8,
+          "ci_high": 81.72,
+          "boot_sd": 0.508
+        }
+      },
+      "yolov10s::infrared": {
+        "MR": {
+          "point": 36.87,
+          "ci_low": 35.54,
+          "ci_high": 38.42,
+          "boot_sd": 0.741
+        },
+        "AP50": {
+          "point": 79.33,
+          "ci_low": 78.25,
+          "ci_high": 80.35,
+          "boot_sd": 0.538
+        }
+      },
+      "yolov10m::visible": {
+        "MR": {
+          "point": 31.64,
+          "ci_low": 29.76,
+          "ci_high": 33.41,
+          "boot_sd": 0.936
+        },
+        "AP50": {
+          "point": 82.62,
+          "ci_low": 81.7,
+          "ci_high": 83.51,
+          "boot_sd": 0.486
+        }
+      },
+      "yolov10m::infrared": {
+        "MR": {
+          "point": 33.41,
+          "ci_low": 32.21,
+          "ci_high": 34.8,
+          "boot_sd": 0.7
+        },
+        "AP50": {
+          "point": 81.86,
+          "ci_low": 80.89,
+          "ci_high": 82.77,
+          "boot_sd": 0.487
+        }
+      },
+      "yolov10b::visible": {
+        "MR": {
+          "point": 32.08,
+          "ci_low": 30.28,
+          "ci_high": 33.84,
+          "boot_sd": 0.901
+        },
+        "AP50": {
+          "point": 81.44,
+          "ci_low": 80.44,
+          "ci_high": 82.41,
+          "boot_sd": 0.496
+        }
+      },
+      "yolov10b::infrared": {
+        "MR": {
+          "point": 30.3,
+          "ci_low": 28.96,
+          "ci_high": 31.76,
+          "boot_sd": 0.721
+        },
+        "AP50": {
+          "point": 83.9,
+          "ci_low": 82.91,
+          "ci_high": 84.76,
+          "boot_sd": 0.462
+        }
+      },
+      "yolov10l::visible": {
+        "MR": {
+          "point": 30.87,
+          "ci_low": 28.97,
+          "ci_high": 33.11,
+          "boot_sd": 1.034
+        },
+        "AP50": {
+          "point": 82.94,
+          "ci_low": 82.02,
+          "ci_high": 83.89,
+          "boot_sd": 0.485
+        }
+      },
+      "yolov10l::infrared": {
+        "MR": {
+          "point": 28.58,
+          "ci_low": 27.43,
+          "ci_high": 29.87,
+          "boot_sd": 0.641
+        },
+        "AP50": {
+          "point": 84.68,
+          "ci_low": 83.84,
+          "ci_high": 85.47,
+          "boot_sd": 0.427
+        }
+      },
+      "yolov10x::visible": {
+        "MR": {
+          "point": 31.25,
+          "ci_low": 29.37,
+          "ci_high": 33.0,
+          "boot_sd": 0.926
+        },
+        "AP50": {
+          "point": 82.84,
+          "ci_low": 81.91,
+          "ci_high": 83.75,
+          "boot_sd": 0.479
+        }
+      },
+      "yolov10x::infrared": {
+        "MR": {
+          "point": 31.73,
+          "ci_low": 30.44,
+          "ci_high": 33.14,
+          "boot_sd": 0.68
+        },
+        "AP50": {
+          "point": 83.5,
+          "ci_low": 82.57,
+          "ci_high": 84.3,
+          "boot_sd": 0.449
+        }
+      },
+      "yolo11n::visible": {
+        "MR": {
+          "point": 39.31,
+          "ci_low": 37.61,
+          "ci_high": 41.4,
+          "boot_sd": 0.979
+        },
+        "AP50": {
+          "point": 77.55,
+          "ci_low": 76.51,
+          "ci_high": 78.49,
+          "boot_sd": 0.539
+        }
+      },
+      "yolo11n::infrared": {
+        "MR": {
+          "point": 45.01,
+          "ci_low": 43.54,
+          "ci_high": 46.38,
+          "boot_sd": 0.713
+        },
+        "AP50": {
+          "point": 73.05,
+          "ci_low": 71.97,
+          "ci_high": 74.14,
+          "boot_sd": 0.566
+        }
+      },
+      "yolo11s::visible": {
+        "MR": {
+          "point": 35.26,
+          "ci_low": 33.35,
+          "ci_high": 37.12,
+          "boot_sd": 0.961
+        },
+        "AP50": {
+          "point": 80.33,
+          "ci_low": 79.3,
+          "ci_high": 81.2,
+          "boot_sd": 0.509
+        }
+      },
+      "yolo11s::infrared": {
+        "MR": {
+          "point": 36.25,
+          "ci_low": 34.88,
+          "ci_high": 37.66,
+          "boot_sd": 0.701
+        },
+        "AP50": {
+          "point": 79.1,
+          "ci_low": 78.08,
+          "ci_high": 80.08,
+          "boot_sd": 0.508
+        }
+      },
+      "yolo11m::visible": {
+        "MR": {
+          "point": 33.25,
+          "ci_low": 31.38,
+          "ci_high": 34.82,
+          "boot_sd": 0.893
+        },
+        "AP50": {
+          "point": 81.93,
+          "ci_low": 80.92,
+          "ci_high": 82.81,
+          "boot_sd": 0.493
+        }
+      },
+      "yolo11m::infrared": {
+        "MR": {
+          "point": 34.24,
+          "ci_low": 32.85,
+          "ci_high": 35.93,
+          "boot_sd": 0.759
+        },
+        "AP50": {
+          "point": 81.46,
+          "ci_low": 80.55,
+          "ci_high": 82.32,
+          "boot_sd": 0.479
+        }
+      },
+      "yolo11l::visible": {
+        "MR": {
+          "point": 30.91,
+          "ci_low": 29.12,
+          "ci_high": 32.75,
+          "boot_sd": 0.917
+        },
+        "AP50": {
+          "point": 82.54,
+          "ci_low": 81.62,
+          "ci_high": 83.5,
+          "boot_sd": 0.486
+        }
+      },
+      "yolo11l::infrared": {
+        "MR": {
+          "point": 29.56,
+          "ci_low": 28.24,
+          "ci_high": 30.84,
+          "boot_sd": 0.685
+        },
+        "AP50": {
+          "point": 83.91,
+          "ci_low": 82.97,
+          "ci_high": 84.78,
+          "boot_sd": 0.458
+        }
+      },
+      "yolo11x::visible": {
+        "MR": {
+          "point": 30.23,
+          "ci_low": 28.49,
+          "ci_high": 31.98,
+          "boot_sd": 0.885
+        },
+        "AP50": {
+          "point": 83.92,
+          "ci_low": 83.02,
+          "ci_high": 84.83,
+          "boot_sd": 0.474
+        }
+      },
+      "yolo11x::infrared": {
+        "MR": {
+          "point": 27.31,
+          "ci_low": 25.96,
+          "ci_high": 28.66,
+          "boot_sd": 0.672
+        },
+        "AP50": {
+          "point": 85.85,
+          "ci_low": 85.03,
+          "ci_high": 86.65,
+          "boot_sd": 0.418
+        }
+      },
+      "yolo12n::visible": {
+        "MR": {
+          "point": 39.19,
+          "ci_low": 37.46,
+          "ci_high": 41.2,
+          "boot_sd": 0.951
+        },
+        "AP50": {
+          "point": 76.73,
+          "ci_low": 75.71,
+          "ci_high": 77.7,
+          "boot_sd": 0.53
+        }
+      },
+      "yolo12n::infrared": {
+        "MR": {
+          "point": 45.28,
+          "ci_low": 44.01,
+          "ci_high": 46.92,
+          "boot_sd": 0.754
+        },
+        "AP50": {
+          "point": 75.12,
+          "ci_low": 73.98,
+          "ci_high": 76.14,
+          "boot_sd": 0.56
+        }
+      },
+      "yolo12s::visible": {
+        "MR": {
+          "point": 31.28,
+          "ci_low": 29.59,
+          "ci_high": 33.36,
+          "boot_sd": 0.983
+        },
+        "AP50": {
+          "point": 82.87,
+          "ci_low": 81.94,
+          "ci_high": 83.77,
+          "boot_sd": 0.492
+        }
+      },
+      "yolo12s::infrared": {
+        "MR": {
+          "point": 31.84,
+          "ci_low": 30.55,
+          "ci_high": 33.36,
+          "boot_sd": 0.716
+        },
+        "AP50": {
+          "point": 81.71,
+          "ci_low": 80.77,
+          "ci_high": 82.6,
+          "boot_sd": 0.487
+        }
+      },
+      "yolo12m::visible": {
+        "MR": {
+          "point": 31.79,
+          "ci_low": 29.9,
+          "ci_high": 33.75,
+          "boot_sd": 0.942
+        },
+        "AP50": {
+          "point": 82.68,
+          "ci_low": 81.77,
+          "ci_high": 83.64,
+          "boot_sd": 0.483
+        }
+      },
+      "yolo12m::infrared": {
+        "MR": {
+          "point": 38.87,
+          "ci_low": 37.23,
+          "ci_high": 40.4,
+          "boot_sd": 0.828
+        },
+        "AP50": {
+          "point": 81.37,
+          "ci_low": 80.37,
+          "ci_high": 82.36,
+          "boot_sd": 0.522
+        }
+      },
+      "yolo12l::visible": {
+        "MR": {
+          "point": 30.47,
+          "ci_low": 28.46,
+          "ci_high": 32.33,
+          "boot_sd": 0.989
+        },
+        "AP50": {
+          "point": 84.42,
+          "ci_low": 83.42,
+          "ci_high": 85.37,
+          "boot_sd": 0.498
+        }
+      },
+      "yolo12l::infrared": {
+        "MR": {
+          "point": 30.73,
+          "ci_low": 29.28,
+          "ci_high": 32.05,
+          "boot_sd": 0.707
+        },
+        "AP50": {
+          "point": 84.01,
+          "ci_low": 83.04,
+          "ci_high": 84.95,
+          "boot_sd": 0.466
+        }
+      },
+      "yolo12x::visible": {
+        "MR": {
+          "point": 28.99,
+          "ci_low": 27.1,
+          "ci_high": 30.76,
+          "boot_sd": 0.898
+        },
+        "AP50": {
+          "point": 85.25,
+          "ci_low": 84.34,
+          "ci_high": 86.16,
+          "boot_sd": 0.466
+        }
+      },
+      "yolo12x::infrared": {
+        "MR": {
+          "point": 32.68,
+          "ci_low": 31.22,
+          "ci_high": 34.1,
+          "boot_sd": 0.727
+        },
+        "AP50": {
+          "point": 82.12,
+          "ci_low": 81.09,
+          "ci_high": 83.04,
+          "boot_sd": 0.484
+        }
+      },
+      "yolo26n::visible": {
+        "MR": {
+          "point": 38.64,
+          "ci_low": 36.96,
+          "ci_high": 40.49,
+          "boot_sd": 0.908
+        },
+        "AP50": {
+          "point": 77.56,
+          "ci_low": 76.5,
+          "ci_high": 78.5,
+          "boot_sd": 0.53
+        }
+      },
+      "yolo26n::infrared": {
+        "MR": {
+          "point": 45.93,
+          "ci_low": 44.35,
+          "ci_high": 47.36,
+          "boot_sd": 0.75
+        },
+        "AP50": {
+          "point": 71.34,
+          "ci_low": 70.2,
+          "ci_high": 72.61,
+          "boot_sd": 0.606
+        }
+      },
+      "yolo26s::visible": {
+        "MR": {
+          "point": 34.11,
+          "ci_low": 32.56,
+          "ci_high": 35.95,
+          "boot_sd": 0.855
+        },
+        "AP50": {
+          "point": 80.65,
+          "ci_low": 79.63,
+          "ci_high": 81.57,
+          "boot_sd": 0.514
+        }
+      },
+      "yolo26s::infrared": {
+        "MR": {
+          "point": 36.36,
+          "ci_low": 34.88,
+          "ci_high": 37.86,
+          "boot_sd": 0.729
+        },
+        "AP50": {
+          "point": 79.61,
+          "ci_low": 78.57,
+          "ci_high": 80.6,
+          "boot_sd": 0.507
+        }
+      },
+      "yolo26m::visible": {
+        "MR": {
+          "point": 30.61,
+          "ci_low": 29.06,
+          "ci_high": 32.41,
+          "boot_sd": 0.875
+        },
+        "AP50": {
+          "point": 83.81,
+          "ci_low": 82.85,
+          "ci_high": 84.66,
+          "boot_sd": 0.478
+        }
+      },
+      "yolo26m::infrared": {
+        "MR": {
+          "point": 34.78,
+          "ci_low": 33.35,
+          "ci_high": 36.17,
+          "boot_sd": 0.703
+        },
+        "AP50": {
+          "point": 80.89,
+          "ci_low": 79.96,
+          "ci_high": 81.85,
+          "boot_sd": 0.487
+        }
+      },
+      "yolo26l::visible": {
+        "MR": {
+          "point": 33.38,
+          "ci_low": 31.54,
+          "ci_high": 35.36,
+          "boot_sd": 0.982
+        },
+        "AP50": {
+          "point": 81.48,
+          "ci_low": 80.46,
+          "ci_high": 82.42,
+          "boot_sd": 0.504
+        }
+      },
+      "yolo26l::infrared": {
+        "MR": {
+          "point": 31.35,
+          "ci_low": 30.09,
+          "ci_high": 32.7,
+          "boot_sd": 0.668
+        },
+        "AP50": {
+          "point": 84.03,
+          "ci_low": 83.13,
+          "ci_high": 84.82,
+          "boot_sd": 0.428
+        }
+      },
+      "yolo26x::visible": {
+        "MR": {
+          "point": 30.29,
+          "ci_low": 28.61,
+          "ci_high": 32.24,
+          "boot_sd": 0.941
+        },
+        "AP50": {
+          "point": 84.92,
+          "ci_low": 83.97,
+          "ci_high": 85.82,
+          "boot_sd": 0.469
+        }
+      },
+      "yolo26x::infrared": {
+        "MR": {
+          "point": 28.06,
+          "ci_low": 26.75,
+          "ci_high": 29.36,
+          "boot_sd": 0.658
+        },
+        "AP50": {
+          "point": 85.77,
+          "ci_low": 84.93,
+          "ci_high": 86.61,
+          "boot_sd": 0.412
+        }
+      },
+      "rtdetr_l::visible": {
+        "MR": {
+          "point": 34.14,
+          "ci_low": 32.26,
+          "ci_high": 35.9,
+          "boot_sd": 0.925
+        },
+        "AP50": {
+          "point": 81.6,
+          "ci_low": 80.64,
+          "ci_high": 82.51,
+          "boot_sd": 0.496
+        }
+      },
+      "rtdetr_l::infrared": {
+        "MR": {
+          "point": 32.37,
+          "ci_low": 31.0,
+          "ci_high": 33.87,
+          "boot_sd": 0.738
+        },
+        "AP50": {
+          "point": 81.45,
+          "ci_low": 80.45,
+          "ci_high": 82.39,
+          "boot_sd": 0.487
+        }
+      },
+      "rtdetr_x::visible": {
+        "MR": {
+          "point": 33.83,
+          "ci_low": 31.88,
+          "ci_high": 35.6,
+          "boot_sd": 0.95
+        },
+        "AP50": {
+          "point": 82.75,
+          "ci_low": 81.79,
+          "ci_high": 83.74,
+          "boot_sd": 0.494
+        }
+      },
+      "rtdetr_x::infrared": {
+        "MR": {
+          "point": 32.28,
+          "ci_low": 30.91,
+          "ci_high": 33.65,
+          "boot_sd": 0.733
+        },
+        "AP50": {
+          "point": 82.36,
+          "ci_low": 81.42,
+          "ci_high": 83.24,
+          "boot_sd": 0.483
+        }
+      },
+      "faster_rcnn_r50_fpn_v2::visible": {
+        "MR": {
+          "point": 37.1,
+          "ci_low": 35.24,
+          "ci_high": 39.01,
+          "boot_sd": 0.965
+        },
+        "AP50": {
+          "point": 78.86,
+          "ci_low": 77.88,
+          "ci_high": 79.88,
+          "boot_sd": 0.536
+        }
+      },
+      "faster_rcnn_r50_fpn_v2::infrared": {
+        "MR": {
+          "point": 37.9,
+          "ci_low": 36.61,
+          "ci_high": 39.21,
+          "boot_sd": 0.684
+        },
+        "AP50": {
+          "point": 78.6,
+          "ci_low": 77.62,
+          "ci_high": 79.54,
+          "boot_sd": 0.478
+        }
+      },
+      "retinanet_r50_fpn_v2::visible": {
+        "MR": {
+          "point": 47.94,
+          "ci_low": 46.21,
+          "ci_high": 49.47,
+          "boot_sd": 0.837
+        },
+        "AP50": {
+          "point": 69.45,
+          "ci_low": 68.33,
+          "ci_high": 70.57,
+          "boot_sd": 0.579
+        }
+      },
+      "retinanet_r50_fpn_v2::infrared": {
+        "MR": {
+          "point": 51.98,
+          "ci_low": 50.63,
+          "ci_high": 53.46,
+          "boot_sd": 0.727
+        },
+        "AP50": {
+          "point": 70.03,
+          "ci_low": 68.96,
+          "ci_high": 71.12,
+          "boot_sd": 0.558
+        }
+      },
+      "fcos_r50_fpn::visible": {
+        "MR": {
+          "point": 49.28,
+          "ci_low": 47.58,
+          "ci_high": 50.97,
+          "boot_sd": 0.898
+        },
+        "AP50": {
+          "point": 68.14,
+          "ci_low": 67.0,
+          "ci_high": 69.28,
+          "boot_sd": 0.608
+        }
+      },
+      "fcos_r50_fpn::infrared": {
+        "MR": {
+          "point": 57.57,
+          "ci_low": 56.13,
+          "ci_high": 58.98,
+          "boot_sd": 0.735
+        },
+        "AP50": {
+          "point": 61.91,
+          "ci_low": 60.55,
+          "ci_high": 63.16,
+          "boot_sd": 0.643
+        }
+      },
+      "ssd300_vgg16::visible": {
+        "MR": {
+          "point": 50.4,
+          "ci_low": 48.72,
+          "ci_high": 51.95,
+          "boot_sd": 0.879
+        },
+        "AP50": {
+          "point": 65.85,
+          "ci_low": 64.74,
+          "ci_high": 66.99,
+          "boot_sd": 0.611
+        }
+      },
+      "ssd300_vgg16::infrared": {
+        "MR": {
+          "point": 69.07,
+          "ci_low": 67.93,
+          "ci_high": 70.28,
+          "boot_sd": 0.602
+        },
+        "AP50": {
+          "point": 52.68,
+          "ci_low": 51.32,
+          "ci_high": 53.93,
+          "boot_sd": 0.642
+        }
+      },
+      "ssdlite320_mnv3::visible": {
+        "MR": {
+          "point": 66.3,
+          "ci_low": 64.72,
+          "ci_high": 67.68,
+          "boot_sd": 0.8
+        },
+        "AP50": {
+          "point": 52.58,
+          "ci_low": 51.4,
+          "ci_high": 53.95,
+          "boot_sd": 0.686
+        }
+      },
+      "ssdlite320_mnv3::infrared": {
+        "MR": {
+          "point": 92.71,
+          "ci_low": 92.19,
+          "ci_high": 93.28,
+          "boot_sd": 0.28
+        },
+        "AP50": {
+          "point": 14.54,
+          "ci_low": 13.5,
+          "ci_high": 15.63,
+          "boot_sd": 0.519
+        }
+      }
+    },
+    "n_boot": 500,
+    "resampling_unit": "image pair"
+  },
+  "ranking": {
+    "visible": [
+      "yolo12x",
+      "yolov8l",
+      "yolo11x",
+      "yolo26x",
+      "yolo12l",
+      "yolo26m",
+      "yolov10l",
+      "yolo11l",
+      "yolov9e",
+      "yolov10x",
+      "yolo12s",
+      "yolov9c",
+      "yolov10m",
+      "yolov8x",
+      "yolo12m",
+      "yolov10b",
+      "yolov5xu",
+      "yolov5lu",
+      "yolo11m",
+      "yolo26l",
+      "yolov3u",
+      "yolov3_sppu",
+      "rtdetr_x",
+      "yolov10s",
+      "yolov8m",
+      "yolov9s",
+      "yolo26s",
+      "rtdetr_l",
+      "yolov9m",
+      "yolov5mu",
+      "yolo11s",
+      "faster_rcnn_r50_fpn_v2",
+      "yolov8s",
+      "yolo26n",
+      "yolov5su",
+      "yolo12n",
+      "yolo11n",
+      "yolov10n",
+      "yolov9t",
+      "yolov8n",
+      "yolov5nu",
+      "retinanet_r50_fpn_v2",
+      "fcos_r50_fpn",
+      "ssd300_vgg16",
+      "yolov3_tinyu",
+      "ssdlite320_mnv3"
+    ],
+    "infrared": [
+      "yolov9e",
+      "yolov5xu",
+      "yolo11x",
+      "yolo26x",
+      "yolov10l",
+      "yolov5lu",
+      "yolov8l",
+      "yolo11l",
+      "yolov10b",
+      "yolov3u",
+      "yolov9c",
+      "yolo12l",
+      "yolov3_sppu",
+      "yolo26l",
+      "yolov10x",
+      "yolo12s",
+      "rtdetr_x",
+      "yolov9m",
+      "rtdetr_l",
+      "yolo12x",
+      "yolov8x",
+      "yolov10m",
+      "yolov8m",
+      "yolo11m",
+      "yolov5mu",
+      "yolo26m",
+      "yolo11s",
+      "yolo26s",
+      "yolov10s",
+      "yolov9s",
+      "faster_rcnn_r50_fpn_v2",
+      "yolo12m",
+      "yolov8s",
+      "yolov5su",
+      "yolov9t",
+      "yolov8n",
+      "yolo11n",
+      "yolo12n",
+      "yolov10n",
+      "yolo26n",
+      "retinanet_r50_fpn_v2",
+      "yolov3_tinyu",
+      "yolov5nu",
+      "fcos_r50_fpn",
+      "ssd300_vgg16",
+      "ssdlite320_mnv3"
+    ],
+    "kendall_tau_visible_vs_infrared": 0.687
+  }
+}

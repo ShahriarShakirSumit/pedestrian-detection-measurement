@@ -1,0 +1,194 @@
+{
+  "generated_utc": "2026-08-22T05:44:16Z",
+  "evidence_layer": "published detections re-evaluated under one local protocol",
+  "comparable_with_controlled_experiments": false,
+  "evaluator": {
+    "source": "https://github.com/sejong-rcv/MLPD-Multi-Label-Pedestrian-Detection",
+    "path": "$DATA_ROOT/kaist/eval_kit",
+    "evaluation_script_sha256": "97a38624e5c583748fa5ef93f3136ded2c1874f0906a68c1f4caa32e09ab6ff2",
+    "cocoeval_sha256": "7a48abae6e9ccf70824d4e19da59cc91689c97a80a6d6f760f67aa0ebb9f38cf",
+    "coco_sha256": "d0897765de887618a5e83d98430ad94737af144650d256b8c4390b5363d00668"
+  },
+  "protocol": {
+    "metric": "log-average miss rate, percent, lower is better",
+    "iou_threshold": 0.5,
+    "fppi_sampling_points": [
+      0.01,
+      0.0178,
+      0.0316,
+      0.0562,
+      0.1,
+      0.1778,
+      0.3162,
+      0.5623,
+      1.0
+    ],
+    "max_detections": 1000,
+    "category_ids_evaluated": [
+      1
+    ],
+    "subsets": {
+      "Reasonable": {
+        "height_px": [
+          55.0,
+          10000000000.0
+        ],
+        "occlusion_levels": [
+          0,
+          1
+        ]
+      },
+      "Reasonable_small": {
+        "height_px": [
+          50.0,
+          75.0
+        ],
+        "occlusion_levels": [
+          0,
+          1
+        ]
+      },
+      "Reasonable_occ=heavy": {
+        "height_px": [
+          50.0,
+          10000000000.0
+        ],
+        "occlusion_levels": [
+          2
+        ]
+      },
+      "All": {
+        "height_px": [
+          20.0,
+          10000000000.0
+        ],
+        "occlusion_levels": [
+          0,
+          1,
+          2
+        ]
+      }
+    },
+    "day_night_split": {
+      "day_image_index_range": [
+        0,
+        1455
+      ],
+      "night_image_index_range": [
+        1455,
+        2252
+      ],
+      "verified_against_set_numbering": true,
+      "day_sets": [
+        "set06",
+        "set07",
+        "set08"
+      ],
+      "n_day": 1455,
+      "n_night": 797
+    }
+  },
+  "annotation_file": {
+    "path": "$DATA_ROOT/kaist/eval_kit/KAIST_annotation.json",
+    "sha256": "07f525a4a28ebf96b026c367d9222115896671f9512a29b441307efa4d9a525d",
+    "n_images": 2252,
+    "n_annotations": 4254
+  },
+  "environment": {
+    "python": "3.10.20",
+    "os": "Linux-6.8.0-124-generic-x86_64-with-glibc2.35",
+    "numpy": "2.2.6"
+  },
+  "results": {
+    "MLPD": {
+      "detection_file": "$DATA_ROOT/kaist/published_detections/MLPD_result.txt",
+      "detection_file_sha256": "1d604a1f7ece32cd52f9ca5d6e7124b8d7d6e5a5b0b44358c506ce641e1304d4",
+      "MR_all_Reasonable": 7.58,
+      "recall_all_Reasonable": 96.7,
+      "MR_all_Reasonable_small": 11.53,
+      "MR_all_Reasonable_occ=heavy": 44.83,
+      "MR_all_All": 28.49,
+      "MR_day_Reasonable": 7.96,
+      "MR_day_Reasonable_small": 11.55,
+      "MR_day_Reasonable_occ=heavy": 43.87,
+      "MR_day_All": 28.39,
+      "MR_night_Reasonable": 6.95,
+      "MR_night_Reasonable_small": 12.08,
+      "MR_night_Reasonable_occ=heavy": 47.71,
+      "MR_night_All": 28.69,
+      "day_night_gap_Reasonable": -1.01
+    },
+    "ARCNN": {
+      "detection_file": "$DATA_ROOT/kaist/published_detections/ARCNN_result.txt",
+      "detection_file_sha256": "7747a89a1d9aa8b2a84ceced87fc0e3d711b0b7f9f24fb5ca6d749ff7199440d",
+      "MR_all_Reasonable": 9.34,
+      "recall_all_Reasonable": 97.25,
+      "MR_all_Reasonable_small": 14.94,
+      "MR_all_Reasonable_occ=heavy": 45.89,
+      "MR_all_All": 34.95,
+      "MR_day_Reasonable": 9.94,
+      "MR_day_Reasonable_small": 14.93,
+      "MR_day_Reasonable_occ=heavy": 46.46,
+      "MR_day_All": 34.36,
+      "MR_night_Reasonable": 8.38,
+      "MR_night_Reasonable_small": 15.12,
+      "MR_night_Reasonable_occ=heavy": 47.02,
+      "MR_night_All": 36.12,
+      "day_night_gap_Reasonable": -1.56
+    },
+    "CIAN": {
+      "detection_file": "$DATA_ROOT/kaist/published_detections/CIAN_result.txt",
+      "detection_file_sha256": "795cefe0b2377867e4f317768a7fe192694ff91c5c91f9eae85422473a4bf2e4",
+      "MR_all_Reasonable": 14.12,
+      "recall_all_Reasonable": 97.25,
+      "MR_all_Reasonable_small": 20.2,
+      "MR_all_Reasonable_occ=heavy": 53.6,
+      "MR_all_All": 35.57,
+      "MR_day_Reasonable": 14.78,
+      "MR_day_Reasonable_small": 21.59,
+      "MR_day_Reasonable_occ=heavy": 50.93,
+      "MR_day_All": 36.06,
+      "MR_night_Reasonable": 11.13,
+      "MR_night_Reasonable_small": 15.34,
+      "MR_night_Reasonable_occ=heavy": 63.19,
+      "MR_night_All": 32.38,
+      "day_night_gap_Reasonable": -3.65
+    },
+    "MSDS-RCNN": {
+      "detection_file": "$DATA_ROOT/kaist/published_detections/MSDS-RCNN_result.txt",
+      "detection_file_sha256": "ef57aa4657eaab6e2265c1840fec685498cca19f21326788bb3dc1092e83b7c8",
+      "MR_all_Reasonable": 11.34,
+      "recall_all_Reasonable": 94.3,
+      "MR_all_Reasonable_small": 16.71,
+      "MR_all_Reasonable_occ=heavy": 55.71,
+      "MR_all_All": 34.2,
+      "MR_day_Reasonable": 10.54,
+      "MR_day_Reasonable_small": 15.32,
+      "MR_day_Reasonable_occ=heavy": 52.9,
+      "MR_day_All": 32.12,
+      "MR_night_Reasonable": 12.94,
+      "MR_night_Reasonable_small": 20.88,
+      "MR_night_Reasonable_occ=heavy": 64.84,
+      "MR_night_All": 38.83,
+      "day_night_gap_Reasonable": 2.4
+    },
+    "MBNet": {
+      "detection_file": "$DATA_ROOT/kaist/published_detections/MBNet_result.txt",
+      "detection_file_sha256": "c75332422a66abb4f8f381375b9101f024a119e52456ee4d23b476c9679cb9db",
+      "MR_all_Reasonable": 8.13,
+      "recall_all_Reasonable": 98.42,
+      "MR_all_Reasonable_small": 15.42,
+      "MR_all_Reasonable_occ=heavy": 49.03,
+      "MR_all_All": 31.87,
+      "MR_day_Reasonable": 8.28,
+      "MR_day_Reasonable_small": 14.22,
+      "MR_day_Reasonable_occ=heavy": 49.26,
+      "MR_day_All": 32.39,
+      "MR_night_Reasonable": 7.86,
+      "MR_night_Reasonable_small": 19.25,
+      "MR_night_Reasonable_occ=heavy": 48.63,
+      "MR_night_All": 30.95,
+      "day_night_gap_Reasonable": -0.42
+    }
+  }
+}

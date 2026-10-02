@@ -1,0 +1,55 @@
+{
+  "model": "faster_rcnn_r50_fpn_v2",
+  "dataset": "LLVIP infrared",
+  "seed": 20260822,
+  "schedule": {
+    "epochs": 2,
+    "batch": 2,
+    "grad_accum": 4,
+    "effective_batch": 8,
+    "lr": 0.005,
+    "optimiser": "SGD momentum 0.9, weight decay 1e-4",
+    "amp": true,
+    "augmentation": "horizontal flip only"
+  },
+  "splits": {
+    "train": 10823,
+    "val": 1202,
+    "test": 3463
+  },
+  "note": "the test split is evaluated once, after the schedule was fixed; validation is carved from training images only",
+  "baseline": {
+    "val": {
+      "MR": 64.4,
+      "AP50": 52.55,
+      "recall": 67.47
+    },
+    "test": {
+      "MR": 37.9,
+      "AP50": 78.6,
+      "recall": 90.85
+    }
+  },
+  "training": {
+    "seconds": 1879.0,
+    "optimiser_steps": 2704,
+    "peak_alloc_MiB": 2094
+  },
+  "finetuned": {
+    "val": {
+      "MR": 8.4,
+      "AP50": 97.39,
+      "recall": 99.03
+    },
+    "test": {
+      "MR": 6.54,
+      "AP50": 97.73,
+      "recall": 99.24
+    }
+  },
+  "improvement": {
+    "val_MR_delta": 55.99,
+    "test_MR_delta": 31.36,
+    "test_recall_delta": 8.4
+  }
+}

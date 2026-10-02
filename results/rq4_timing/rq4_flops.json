@@ -1,0 +1,327 @@
+{
+  "note": "GFLOPs = 2 x MACs, counted at the input resolution each detector is evaluated at; torchvision models use a square input at their short side",
+  "results": {
+    "faster_rcnn_r50_fpn_v2": {
+      "model": "faster_rcnn_r50_fpn_v2",
+      "input_px": 800,
+      "gmacs": 262.01,
+      "gflops": 524.02,
+      "params_M": 43.71
+    },
+    "fcos_r50_fpn": {
+      "model": "fcos_r50_fpn",
+      "input_px": 800,
+      "gmacs": 128.32,
+      "gflops": 256.63,
+      "params_M": 32.27
+    },
+    "retinanet_r50_fpn_v2": {
+      "model": "retinanet_r50_fpn_v2",
+      "input_px": 800,
+      "gmacs": 152.91,
+      "gflops": 305.83,
+      "params_M": 38.2
+    },
+    "rtdetr_l": {
+      "model": "rtdetr_l",
+      "input_px": 640,
+      "gmacs": 55.12,
+      "gflops": 110.24,
+      "params_M": 32.97
+    },
+    "rtdetr_x": {
+      "model": "rtdetr_x",
+      "input_px": 640,
+      "gmacs": 117.46,
+      "gflops": 234.93,
+      "params_M": 67.47
+    },
+    "ssd300_vgg16": {
+      "model": "ssd300_vgg16",
+      "input_px": 300,
+      "gmacs": 34.86,
+      "gflops": 69.72,
+      "params_M": 35.64
+    },
+    "ssdlite320_mnv3": {
+      "model": "ssdlite320_mnv3",
+      "input_px": 320,
+      "gmacs": 0.62,
+      "gflops": 1.24,
+      "params_M": 3.44
+    },
+    "yolo11l": {
+      "model": "yolo11l",
+      "input_px": 640,
+      "gmacs": 43.8,
+      "gflops": 87.61,
+      "params_M": 25.37
+    },
+    "yolo11m": {
+      "model": "yolo11m",
+      "input_px": 640,
+      "gmacs": 34.26,
+      "gflops": 68.52,
+      "params_M": 20.11
+    },
+    "yolo11n": {
+      "model": "yolo11n",
+      "input_px": 640,
+      "gmacs": 3.31,
+      "gflops": 6.61,
+      "params_M": 2.62
+    },
+    "yolo11s": {
+      "model": "yolo11s",
+      "input_px": 640,
+      "gmacs": 10.86,
+      "gflops": 21.71,
+      "params_M": 9.46
+    },
+    "yolo11x": {
+      "model": "yolo11x",
+      "input_px": 640,
+      "gmacs": 97.97,
+      "gflops": 195.95,
+      "params_M": 56.97
+    },
+    "yolo12l": {
+      "model": "yolo12l",
+      "input_px": 640,
+      "gmacs": 44.87,
+      "gflops": 89.74,
+      "params_M": 26.45
+    },
+    "yolo12m": {
+      "model": "yolo12m",
+      "input_px": 640,
+      "gmacs": 34.04,
+      "gflops": 68.07,
+      "params_M": 20.2
+    },
+    "yolo12n": {
+      "model": "yolo12n",
+      "input_px": 640,
+      "gmacs": 3.33,
+      "gflops": 6.65,
+      "params_M": 2.6
+    },
+    "yolo12s": {
+      "model": "yolo12s",
+      "input_px": 640,
+      "gmacs": 10.84,
+      "gflops": 21.69,
+      "params_M": 9.29
+    },
+    "yolo12x": {
+      "model": "yolo12x",
+      "input_px": 640,
+      "gmacs": 100.16,
+      "gflops": 200.32,
+      "params_M": 59.22
+    },
+    "yolo26l": {
+      "model": "yolo26l",
+      "input_px": 640,
+      "gmacs": 46.89,
+      "gflops": 93.79,
+      "params_M": 26.3
+    },
+    "yolo26m": {
+      "model": "yolo26m",
+      "input_px": 640,
+      "gmacs": 37.69,
+      "gflops": 75.39,
+      "params_M": 21.9
+    },
+    "yolo26n": {
+      "model": "yolo26n",
+      "input_px": 640,
+      "gmacs": 3.06,
+      "gflops": 6.12,
+      "params_M": 2.57
+    },
+    "yolo26s": {
+      "model": "yolo26s",
+      "input_px": 640,
+      "gmacs": 11.42,
+      "gflops": 22.83,
+      "params_M": 10.01
+    },
+    "yolo26x": {
+      "model": "yolo26x",
+      "input_px": 640,
+      "gmacs": 104.76,
+      "gflops": 209.52,
+      "params_M": 58.99
+    },
+    "yolov10b": {
+      "model": "yolov10b",
+      "input_px": 640,
+      "gmacs": 49.67,
+      "gflops": 99.35,
+      "params_M": 20.57
+    },
+    "yolov10l": {
+      "model": "yolov10l",
+      "input_px": 640,
+      "gmacs": 63.93,
+      "gflops": 127.87,
+      "params_M": 25.89
+    },
+    "yolov10m": {
+      "model": "yolov10m",
+      "input_px": 640,
+      "gmacs": 32.24,
+      "gflops": 64.47,
+      "params_M": 16.58
+    },
+    "yolov10n": {
+      "model": "yolov10n",
+      "input_px": 640,
+      "gmacs": 4.37,
+      "gflops": 8.74,
+      "params_M": 2.78
+    },
+    "yolov10s": {
+      "model": "yolov10s",
+      "input_px": 640,
+      "gmacs": 12.55,
+      "gflops": 25.1,
+      "params_M": 8.13
+    },
+    "yolov10x": {
+      "model": "yolov10x",
+      "input_px": 640,
+      "gmacs": 85.92,
+      "gflops": 171.84,
+      "params_M": 31.81
+    },
+    "yolov3_sppu": {
+      "model": "yolov3_sppu",
+      "input_px": 640,
+      "gmacs": 142.08,
+      "gflops": 284.16,
+      "params_M": 104.8
+    },
+    "yolov3_tinyu": {
+      "model": "yolov3_tinyu",
+      "input_px": 640,
+      "gmacs": 9.56,
+      "gflops": 19.13,
+      "params_M": 12.17
+    },
+    "yolov3u": {
+      "model": "yolov3u",
+      "input_px": 640,
+      "gmacs": 141.66,
+      "gflops": 283.32,
+      "params_M": 103.75
+    },
+    "yolov5lu": {
+      "model": "yolov5lu",
+      "input_px": 640,
+      "gmacs": 67.81,
+      "gflops": 135.62,
+      "params_M": 53.23
+    },
+    "yolov5mu": {
+      "model": "yolov5mu",
+      "input_px": 640,
+      "gmacs": 32.3,
+      "gflops": 64.6,
+      "params_M": 25.11
+    },
+    "yolov5nu": {
+      "model": "yolov5nu",
+      "input_px": 640,
+      "gmacs": 3.92,
+      "gflops": 7.84,
+      "params_M": 2.65
+    },
+    "yolov5su": {
+      "model": "yolov5su",
+      "input_px": 640,
+      "gmacs": 12.11,
+      "gflops": 24.21,
+      "params_M": 9.15
+    },
+    "yolov5xu": {
+      "model": "yolov5xu",
+      "input_px": 640,
+      "gmacs": 123.66,
+      "gflops": 247.31,
+      "params_M": 97.28
+    },
+    "yolov8l": {
+      "model": "yolov8l",
+      "input_px": 640,
+      "gmacs": 82.87,
+      "gflops": 165.73,
+      "params_M": 43.69
+    },
+    "yolov8m": {
+      "model": "yolov8m",
+      "input_px": 640,
+      "gmacs": 39.66,
+      "gflops": 79.31,
+      "params_M": 25.9
+    },
+    "yolov8n": {
+      "model": "yolov8n",
+      "input_px": 640,
+      "gmacs": 4.43,
+      "gflops": 8.86,
+      "params_M": 3.16
+    },
+    "yolov8s": {
+      "model": "yolov8s",
+      "input_px": 640,
+      "gmacs": 14.41,
+      "gflops": 28.81,
+      "params_M": 11.17
+    },
+    "yolov8x": {
+      "model": "yolov8x",
+      "input_px": 640,
+      "gmacs": 129.27,
+      "gflops": 258.54,
+      "params_M": 68.23
+    },
+    "yolov9c": {
+      "model": "yolov9c",
+      "input_px": 640,
+      "gmacs": 52.01,
+      "gflops": 104.01,
+      "params_M": 25.59
+    },
+    "yolov9e": {
+      "model": "yolov9e",
+      "input_px": 640,
+      "gmacs": 96.5,
+      "gflops": 193.01,
+      "params_M": 58.21
+    },
+    "yolov9m": {
+      "model": "yolov9m",
+      "input_px": 640,
+      "gmacs": 38.93,
+      "gflops": 77.86,
+      "params_M": 20.22
+    },
+    "yolov9s": {
+      "model": "yolov9s",
+      "input_px": 640,
+      "gmacs": 13.78,
+      "gflops": 27.55,
+      "params_M": 7.32
+    },
+    "yolov9t": {
+      "model": "yolov9t",
+      "input_px": 640,
+      "gmacs": 4.24,
+      "gflops": 8.48,
+      "params_M": 2.13
+    }
+  }
+}

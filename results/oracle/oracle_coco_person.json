@@ -1,0 +1,1675 @@
+{
+  "gt_file": "$DATA_ROOT/coco/annotations/instances_val2017.json",
+  "min_height": 0,
+  "loc_iou": 0.1,
+  "models": {
+    "faster_rcnn_r50_fpn_v2": {
+      "MR": 30.19,
+      "AP50": 86.78,
+      "recall": 94.19,
+      "error_budget": {
+        "true_positives": 10151,
+        "false_positives_total": 37476,
+        "fp_duplicate": 1342,
+        "fp_localisation": 1581,
+        "fp_background": 34553,
+        "fp_duplicate_pct": 3.6,
+        "fp_localisation_pct": 4.2,
+        "fp_background_pct": 92.2,
+        "objects_never_found": 626,
+        "objects_total": 10777,
+        "never_found_pct": 5.8
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.72,
+          "gain": 7.47
+        },
+        "ORACLE-DUP": {
+          "MR": 29.91,
+          "gain": 0.28
+        },
+        "ORACLE-BG": {
+          "MR": 18.19,
+          "gain": 12.0
+        },
+        "ORACLE-RANK": {
+          "MR": 5.81,
+          "gain": 24.38
+        }
+      }
+    },
+    "fcos_r50_fpn": {
+      "MR": 37.77,
+      "AP50": 80.86,
+      "recall": 90.42,
+      "error_budget": {
+        "true_positives": 9745,
+        "false_positives_total": 37615,
+        "fp_duplicate": 5364,
+        "fp_localisation": 2633,
+        "fp_background": 29618,
+        "fp_duplicate_pct": 14.3,
+        "fp_localisation_pct": 7.0,
+        "fp_background_pct": 78.7,
+        "objects_never_found": 1032,
+        "objects_total": 10777,
+        "never_found_pct": 9.6
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 27.97,
+          "gain": 9.8
+        },
+        "ORACLE-DUP": {
+          "MR": 36.95,
+          "gain": 0.83
+        },
+        "ORACLE-BG": {
+          "MR": 29.44,
+          "gain": 8.33
+        },
+        "ORACLE-RANK": {
+          "MR": 9.58,
+          "gain": 28.2
+        }
+      }
+    },
+    "retinanet_r50_fpn_v2": {
+      "MR": 36.89,
+      "AP50": 82.17,
+      "recall": 93.31,
+      "error_budget": {
+        "true_positives": 10056,
+        "false_positives_total": 78236,
+        "fp_duplicate": 3850,
+        "fp_localisation": 3357,
+        "fp_background": 71029,
+        "fp_duplicate_pct": 4.9,
+        "fp_localisation_pct": 4.3,
+        "fp_background_pct": 90.8,
+        "objects_never_found": 721,
+        "objects_total": 10777,
+        "never_found_pct": 6.7
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 27.24,
+          "gain": 9.65
+        },
+        "ORACLE-DUP": {
+          "MR": 35.7,
+          "gain": 1.19
+        },
+        "ORACLE-BG": {
+          "MR": 27.55,
+          "gain": 9.34
+        },
+        "ORACLE-RANK": {
+          "MR": 6.69,
+          "gain": 30.2
+        }
+      }
+    },
+    "rtdetr_l": {
+      "MR": 29.88,
+      "AP50": 86.76,
+      "recall": 95.94,
+      "error_budget": {
+        "true_positives": 10339,
+        "false_positives_total": 187695,
+        "fp_duplicate": 14889,
+        "fp_localisation": 2484,
+        "fp_background": 170322,
+        "fp_duplicate_pct": 7.9,
+        "fp_localisation_pct": 1.3,
+        "fp_background_pct": 90.7,
+        "objects_never_found": 438,
+        "objects_total": 10777,
+        "never_found_pct": 4.1
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 21.64,
+          "gain": 8.24
+        },
+        "ORACLE-DUP": {
+          "MR": 28.92,
+          "gain": 0.96
+        },
+        "ORACLE-BG": {
+          "MR": 21.18,
+          "gain": 8.69
+        },
+        "ORACLE-RANK": {
+          "MR": 4.06,
+          "gain": 25.81
+        }
+      }
+    },
+    "rtdetr_x": {
+      "MR": 29.27,
+      "AP50": 87.17,
+      "recall": 96.22,
+      "error_budget": {
+        "true_positives": 10370,
+        "false_positives_total": 195370,
+        "fp_duplicate": 17704,
+        "fp_localisation": 2575,
+        "fp_background": 175091,
+        "fp_duplicate_pct": 9.1,
+        "fp_localisation_pct": 1.3,
+        "fp_background_pct": 89.6,
+        "objects_never_found": 407,
+        "objects_total": 10777,
+        "never_found_pct": 3.8
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 20.84,
+          "gain": 8.42
+        },
+        "ORACLE-DUP": {
+          "MR": 28.34,
+          "gain": 0.92
+        },
+        "ORACLE-BG": {
+          "MR": 21.15,
+          "gain": 8.12
+        },
+        "ORACLE-RANK": {
+          "MR": 3.78,
+          "gain": 25.49
+        }
+      }
+    },
+    "ssd300_vgg16": {
+      "MR": 52.41,
+      "AP50": 64.91,
+      "recall": 79.33,
+      "error_budget": {
+        "true_positives": 8549,
+        "false_positives_total": 300573,
+        "fp_duplicate": 1545,
+        "fp_localisation": 8064,
+        "fp_background": 290964,
+        "fp_duplicate_pct": 0.5,
+        "fp_localisation_pct": 2.7,
+        "fp_background_pct": 96.8,
+        "objects_never_found": 2228,
+        "objects_total": 10777,
+        "never_found_pct": 20.7
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 39.31,
+          "gain": 13.09
+        },
+        "ORACLE-DUP": {
+          "MR": 52.05,
+          "gain": 0.36
+        },
+        "ORACLE-BG": {
+          "MR": 45.28,
+          "gain": 7.12
+        },
+        "ORACLE-RANK": {
+          "MR": 20.67,
+          "gain": 31.73
+        }
+      }
+    },
+    "ssdlite320_mnv3": {
+      "MR": 63.06,
+      "AP50": 49.44,
+      "recall": 68.62,
+      "error_budget": {
+        "true_positives": 7395,
+        "false_positives_total": 303960,
+        "fp_duplicate": 7020,
+        "fp_localisation": 12691,
+        "fp_background": 284249,
+        "fp_duplicate_pct": 2.3,
+        "fp_localisation_pct": 4.2,
+        "fp_background_pct": 93.5,
+        "objects_never_found": 3382,
+        "objects_total": 10777,
+        "never_found_pct": 31.4
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 53.35,
+          "gain": 9.72
+        },
+        "ORACLE-DUP": {
+          "MR": 62.4,
+          "gain": 0.67
+        },
+        "ORACLE-BG": {
+          "MR": 59.34,
+          "gain": 3.73
+        },
+        "ORACLE-RANK": {
+          "MR": 31.38,
+          "gain": 31.68
+        }
+      }
+    },
+    "yolo11l": {
+      "MR": 30.6,
+      "AP50": 86.17,
+      "recall": 92.91,
+      "error_budget": {
+        "true_positives": 10013,
+        "false_positives_total": 17899,
+        "fp_duplicate": 2534,
+        "fp_localisation": 1297,
+        "fp_background": 14068,
+        "fp_duplicate_pct": 14.2,
+        "fp_localisation_pct": 7.2,
+        "fp_background_pct": 78.6,
+        "objects_never_found": 764,
+        "objects_total": 10777,
+        "never_found_pct": 7.1
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.95,
+          "gain": 7.65
+        },
+        "ORACLE-DUP": {
+          "MR": 29.35,
+          "gain": 1.26
+        },
+        "ORACLE-BG": {
+          "MR": 21.6,
+          "gain": 9.0
+        },
+        "ORACLE-RANK": {
+          "MR": 7.09,
+          "gain": 23.52
+        }
+      }
+    },
+    "yolo11m": {
+      "MR": 31.47,
+      "AP50": 85.47,
+      "recall": 92.73,
+      "error_budget": {
+        "true_positives": 9993,
+        "false_positives_total": 19042,
+        "fp_duplicate": 2881,
+        "fp_localisation": 1404,
+        "fp_background": 14757,
+        "fp_duplicate_pct": 15.1,
+        "fp_localisation_pct": 7.4,
+        "fp_background_pct": 77.5,
+        "objects_never_found": 784,
+        "objects_total": 10777,
+        "never_found_pct": 7.3
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.97,
+          "gain": 7.5
+        },
+        "ORACLE-DUP": {
+          "MR": 30.11,
+          "gain": 1.36
+        },
+        "ORACLE-BG": {
+          "MR": 22.71,
+          "gain": 8.76
+        },
+        "ORACLE-RANK": {
+          "MR": 7.27,
+          "gain": 24.2
+        }
+      }
+    },
+    "yolo11n": {
+      "MR": 41.25,
+      "AP50": 77.26,
+      "recall": 88.37,
+      "error_budget": {
+        "true_positives": 9524,
+        "false_positives_total": 34512,
+        "fp_duplicate": 5371,
+        "fp_localisation": 2694,
+        "fp_background": 26447,
+        "fp_duplicate_pct": 15.6,
+        "fp_localisation_pct": 7.8,
+        "fp_background_pct": 76.6,
+        "objects_never_found": 1253,
+        "objects_total": 10777,
+        "never_found_pct": 11.6
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 32.41,
+          "gain": 8.85
+        },
+        "ORACLE-DUP": {
+          "MR": 39.14,
+          "gain": 2.11
+        },
+        "ORACLE-BG": {
+          "MR": 35.19,
+          "gain": 6.06
+        },
+        "ORACLE-RANK": {
+          "MR": 11.63,
+          "gain": 29.63
+        }
+      }
+    },
+    "yolo11s": {
+      "MR": 35.17,
+      "AP50": 82.48,
+      "recall": 91.17,
+      "error_budget": {
+        "true_positives": 9825,
+        "false_positives_total": 27819,
+        "fp_duplicate": 4085,
+        "fp_localisation": 2015,
+        "fp_background": 21719,
+        "fp_duplicate_pct": 14.7,
+        "fp_localisation_pct": 7.2,
+        "fp_background_pct": 78.1,
+        "objects_never_found": 952,
+        "objects_total": 10777,
+        "never_found_pct": 8.8
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 26.74,
+          "gain": 8.44
+        },
+        "ORACLE-DUP": {
+          "MR": 33.58,
+          "gain": 1.59
+        },
+        "ORACLE-BG": {
+          "MR": 27.32,
+          "gain": 7.85
+        },
+        "ORACLE-RANK": {
+          "MR": 8.83,
+          "gain": 26.34
+        }
+      }
+    },
+    "yolo11x": {
+      "MR": 29.29,
+      "AP50": 86.96,
+      "recall": 93.27,
+      "error_budget": {
+        "true_positives": 10052,
+        "false_positives_total": 15632,
+        "fp_duplicate": 2221,
+        "fp_localisation": 1127,
+        "fp_background": 12284,
+        "fp_duplicate_pct": 14.2,
+        "fp_localisation_pct": 7.2,
+        "fp_background_pct": 78.6,
+        "objects_never_found": 725,
+        "objects_total": 10777,
+        "never_found_pct": 6.7
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 21.66,
+          "gain": 7.63
+        },
+        "ORACLE-DUP": {
+          "MR": 28.09,
+          "gain": 1.2
+        },
+        "ORACLE-BG": {
+          "MR": 20.38,
+          "gain": 8.91
+        },
+        "ORACLE-RANK": {
+          "MR": 6.73,
+          "gain": 22.56
+        }
+      }
+    },
+    "yolo12l": {
+      "MR": 30.05,
+      "AP50": 86.23,
+      "recall": 92.68,
+      "error_budget": {
+        "true_positives": 9988,
+        "false_positives_total": 16882,
+        "fp_duplicate": 2483,
+        "fp_localisation": 1237,
+        "fp_background": 13162,
+        "fp_duplicate_pct": 14.7,
+        "fp_localisation_pct": 7.3,
+        "fp_background_pct": 78.0,
+        "objects_never_found": 789,
+        "objects_total": 10777,
+        "never_found_pct": 7.3
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.36,
+          "gain": 7.68
+        },
+        "ORACLE-DUP": {
+          "MR": 28.95,
+          "gain": 1.1
+        },
+        "ORACLE-BG": {
+          "MR": 21.21,
+          "gain": 8.84
+        },
+        "ORACLE-RANK": {
+          "MR": 7.32,
+          "gain": 22.73
+        }
+      }
+    },
+    "yolo12m": {
+      "MR": 31.17,
+      "AP50": 85.57,
+      "recall": 92.47,
+      "error_budget": {
+        "true_positives": 9966,
+        "false_positives_total": 17639,
+        "fp_duplicate": 2785,
+        "fp_localisation": 1403,
+        "fp_background": 13451,
+        "fp_duplicate_pct": 15.8,
+        "fp_localisation_pct": 8.0,
+        "fp_background_pct": 76.3,
+        "objects_never_found": 811,
+        "objects_total": 10777,
+        "never_found_pct": 7.5
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.24,
+          "gain": 7.93
+        },
+        "ORACLE-DUP": {
+          "MR": 29.8,
+          "gain": 1.38
+        },
+        "ORACLE-BG": {
+          "MR": 22.51,
+          "gain": 8.66
+        },
+        "ORACLE-RANK": {
+          "MR": 7.53,
+          "gain": 23.65
+        }
+      }
+    },
+    "yolo12n": {
+      "MR": 40.26,
+      "AP50": 77.99,
+      "recall": 88.31,
+      "error_budget": {
+        "true_positives": 9517,
+        "false_positives_total": 30582,
+        "fp_duplicate": 4883,
+        "fp_localisation": 2564,
+        "fp_background": 23135,
+        "fp_duplicate_pct": 16.0,
+        "fp_localisation_pct": 8.4,
+        "fp_background_pct": 75.6,
+        "objects_never_found": 1260,
+        "objects_total": 10777,
+        "never_found_pct": 11.7
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 31.09,
+          "gain": 9.17
+        },
+        "ORACLE-DUP": {
+          "MR": 38.53,
+          "gain": 1.73
+        },
+        "ORACLE-BG": {
+          "MR": 33.84,
+          "gain": 6.42
+        },
+        "ORACLE-RANK": {
+          "MR": 11.69,
+          "gain": 28.57
+        }
+      }
+    },
+    "yolo12s": {
+      "MR": 35.04,
+      "AP50": 82.73,
+      "recall": 91.08,
+      "error_budget": {
+        "true_positives": 9816,
+        "false_positives_total": 22762,
+        "fp_duplicate": 3597,
+        "fp_localisation": 1854,
+        "fp_background": 17311,
+        "fp_duplicate_pct": 15.8,
+        "fp_localisation_pct": 8.1,
+        "fp_background_pct": 76.1,
+        "objects_never_found": 961,
+        "objects_total": 10777,
+        "never_found_pct": 8.9
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 26.45,
+          "gain": 8.59
+        },
+        "ORACLE-DUP": {
+          "MR": 33.5,
+          "gain": 1.54
+        },
+        "ORACLE-BG": {
+          "MR": 26.98,
+          "gain": 8.06
+        },
+        "ORACLE-RANK": {
+          "MR": 8.92,
+          "gain": 26.12
+        }
+      }
+    },
+    "yolo12x": {
+      "MR": 28.99,
+      "AP50": 87.04,
+      "recall": 93.08,
+      "error_budget": {
+        "true_positives": 10031,
+        "false_positives_total": 14298,
+        "fp_duplicate": 1987,
+        "fp_localisation": 1039,
+        "fp_background": 11272,
+        "fp_duplicate_pct": 13.9,
+        "fp_localisation_pct": 7.3,
+        "fp_background_pct": 78.8,
+        "objects_never_found": 746,
+        "objects_total": 10777,
+        "never_found_pct": 6.9
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 21.62,
+          "gain": 7.37
+        },
+        "ORACLE-DUP": {
+          "MR": 27.84,
+          "gain": 1.15
+        },
+        "ORACLE-BG": {
+          "MR": 19.83,
+          "gain": 9.16
+        },
+        "ORACLE-RANK": {
+          "MR": 6.92,
+          "gain": 22.07
+        }
+      }
+    },
+    "yolo26l": {
+      "MR": 30.33,
+      "AP50": 86.73,
+      "recall": 94.06,
+      "error_budget": {
+        "true_positives": 10137,
+        "false_positives_total": 20243,
+        "fp_duplicate": 3870,
+        "fp_localisation": 1307,
+        "fp_background": 15066,
+        "fp_duplicate_pct": 19.1,
+        "fp_localisation_pct": 6.5,
+        "fp_background_pct": 74.4,
+        "objects_never_found": 640,
+        "objects_total": 10777,
+        "never_found_pct": 5.9
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.96,
+          "gain": 7.36
+        },
+        "ORACLE-DUP": {
+          "MR": 28.41,
+          "gain": 1.92
+        },
+        "ORACLE-BG": {
+          "MR": 21.96,
+          "gain": 8.37
+        },
+        "ORACLE-RANK": {
+          "MR": 5.94,
+          "gain": 24.39
+        }
+      }
+    },
+    "yolo26m": {
+      "MR": 30.93,
+      "AP50": 86.15,
+      "recall": 93.58,
+      "error_budget": {
+        "true_positives": 10085,
+        "false_positives_total": 21074,
+        "fp_duplicate": 4164,
+        "fp_localisation": 1426,
+        "fp_background": 15484,
+        "fp_duplicate_pct": 19.8,
+        "fp_localisation_pct": 6.8,
+        "fp_background_pct": 73.5,
+        "objects_never_found": 692,
+        "objects_total": 10777,
+        "never_found_pct": 6.4
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.58,
+          "gain": 7.35
+        },
+        "ORACLE-DUP": {
+          "MR": 28.97,
+          "gain": 1.96
+        },
+        "ORACLE-BG": {
+          "MR": 22.71,
+          "gain": 8.22
+        },
+        "ORACLE-RANK": {
+          "MR": 6.42,
+          "gain": 24.51
+        }
+      }
+    },
+    "yolo26n": {
+      "MR": 42.14,
+      "AP50": 76.6,
+      "recall": 87.97,
+      "error_budget": {
+        "true_positives": 9480,
+        "false_positives_total": 30294,
+        "fp_duplicate": 6556,
+        "fp_localisation": 2781,
+        "fp_background": 20957,
+        "fp_duplicate_pct": 21.6,
+        "fp_localisation_pct": 9.2,
+        "fp_background_pct": 69.2,
+        "objects_never_found": 1297,
+        "objects_total": 10777,
+        "never_found_pct": 12.0
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 33.08,
+          "gain": 9.06
+        },
+        "ORACLE-DUP": {
+          "MR": 39.46,
+          "gain": 2.68
+        },
+        "ORACLE-BG": {
+          "MR": 36.53,
+          "gain": 5.61
+        },
+        "ORACLE-RANK": {
+          "MR": 12.03,
+          "gain": 30.11
+        }
+      }
+    },
+    "yolo26s": {
+      "MR": 34.29,
+      "AP50": 83.41,
+      "recall": 91.97,
+      "error_budget": {
+        "true_positives": 9912,
+        "false_positives_total": 24609,
+        "fp_duplicate": 4954,
+        "fp_localisation": 1737,
+        "fp_background": 17918,
+        "fp_duplicate_pct": 20.1,
+        "fp_localisation_pct": 7.1,
+        "fp_background_pct": 72.8,
+        "objects_never_found": 865,
+        "objects_total": 10777,
+        "never_found_pct": 8.0
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 26.15,
+          "gain": 8.14
+        },
+        "ORACLE-DUP": {
+          "MR": 32.15,
+          "gain": 2.15
+        },
+        "ORACLE-BG": {
+          "MR": 27.22,
+          "gain": 7.08
+        },
+        "ORACLE-RANK": {
+          "MR": 8.03,
+          "gain": 26.27
+        }
+      }
+    },
+    "yolo26x": {
+      "MR": 29.38,
+      "AP50": 87.62,
+      "recall": 94.69,
+      "error_budget": {
+        "true_positives": 10205,
+        "false_positives_total": 18560,
+        "fp_duplicate": 3646,
+        "fp_localisation": 1112,
+        "fp_background": 13802,
+        "fp_duplicate_pct": 19.6,
+        "fp_localisation_pct": 6.0,
+        "fp_background_pct": 74.4,
+        "objects_never_found": 572,
+        "objects_total": 10777,
+        "never_found_pct": 5.3
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.27,
+          "gain": 7.11
+        },
+        "ORACLE-DUP": {
+          "MR": 27.19,
+          "gain": 2.19
+        },
+        "ORACLE-BG": {
+          "MR": 20.61,
+          "gain": 8.77
+        },
+        "ORACLE-RANK": {
+          "MR": 5.31,
+          "gain": 24.07
+        }
+      }
+    },
+    "yolov10b": {
+      "MR": 30.97,
+      "AP50": 85.33,
+      "recall": 92.0,
+      "error_budget": {
+        "true_positives": 9915,
+        "false_positives_total": 16596,
+        "fp_duplicate": 3129,
+        "fp_localisation": 1285,
+        "fp_background": 12182,
+        "fp_duplicate_pct": 18.9,
+        "fp_localisation_pct": 7.7,
+        "fp_background_pct": 73.4,
+        "objects_never_found": 862,
+        "objects_total": 10777,
+        "never_found_pct": 8.0
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.79,
+          "gain": 7.18
+        },
+        "ORACLE-DUP": {
+          "MR": 29.16,
+          "gain": 1.81
+        },
+        "ORACLE-BG": {
+          "MR": 22.98,
+          "gain": 8.0
+        },
+        "ORACLE-RANK": {
+          "MR": 8.0,
+          "gain": 22.97
+        }
+      }
+    },
+    "yolov10l": {
+      "MR": 30.77,
+      "AP50": 85.68,
+      "recall": 92.46,
+      "error_budget": {
+        "true_positives": 9964,
+        "false_positives_total": 16203,
+        "fp_duplicate": 3066,
+        "fp_localisation": 1237,
+        "fp_background": 11900,
+        "fp_duplicate_pct": 18.9,
+        "fp_localisation_pct": 7.6,
+        "fp_background_pct": 73.4,
+        "objects_never_found": 813,
+        "objects_total": 10777,
+        "never_found_pct": 7.5
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.51,
+          "gain": 7.27
+        },
+        "ORACLE-DUP": {
+          "MR": 28.96,
+          "gain": 1.81
+        },
+        "ORACLE-BG": {
+          "MR": 22.98,
+          "gain": 7.79
+        },
+        "ORACLE-RANK": {
+          "MR": 7.54,
+          "gain": 23.23
+        }
+      }
+    },
+    "yolov10m": {
+      "MR": 32.53,
+      "AP50": 84.5,
+      "recall": 91.83,
+      "error_budget": {
+        "true_positives": 9896,
+        "false_positives_total": 18012,
+        "fp_duplicate": 3436,
+        "fp_localisation": 1440,
+        "fp_background": 13136,
+        "fp_duplicate_pct": 19.1,
+        "fp_localisation_pct": 8.0,
+        "fp_background_pct": 72.9,
+        "objects_never_found": 881,
+        "objects_total": 10777,
+        "never_found_pct": 8.2
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 24.77,
+          "gain": 7.77
+        },
+        "ORACLE-DUP": {
+          "MR": 30.8,
+          "gain": 1.73
+        },
+        "ORACLE-BG": {
+          "MR": 24.8,
+          "gain": 7.74
+        },
+        "ORACLE-RANK": {
+          "MR": 8.17,
+          "gain": 24.36
+        }
+      }
+    },
+    "yolov10n": {
+      "MR": 42.71,
+      "AP50": 75.77,
+      "recall": 86.9,
+      "error_budget": {
+        "true_positives": 9365,
+        "false_positives_total": 27347,
+        "fp_duplicate": 6052,
+        "fp_localisation": 2455,
+        "fp_background": 18840,
+        "fp_duplicate_pct": 22.1,
+        "fp_localisation_pct": 9.0,
+        "fp_background_pct": 68.9,
+        "objects_never_found": 1412,
+        "objects_total": 10777,
+        "never_found_pct": 13.1
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 34.05,
+          "gain": 8.66
+        },
+        "ORACLE-DUP": {
+          "MR": 39.94,
+          "gain": 2.78
+        },
+        "ORACLE-BG": {
+          "MR": 37.69,
+          "gain": 5.03
+        },
+        "ORACLE-RANK": {
+          "MR": 13.1,
+          "gain": 29.61
+        }
+      }
+    },
+    "yolov10s": {
+      "MR": 36.66,
+      "AP50": 81.28,
+      "recall": 90.07,
+      "error_budget": {
+        "true_positives": 9707,
+        "false_positives_total": 22204,
+        "fp_duplicate": 4372,
+        "fp_localisation": 1941,
+        "fp_background": 15891,
+        "fp_duplicate_pct": 19.7,
+        "fp_localisation_pct": 8.7,
+        "fp_background_pct": 71.6,
+        "objects_never_found": 1070,
+        "objects_total": 10777,
+        "never_found_pct": 9.9
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 28.06,
+          "gain": 8.6
+        },
+        "ORACLE-DUP": {
+          "MR": 34.46,
+          "gain": 2.19
+        },
+        "ORACLE-BG": {
+          "MR": 29.72,
+          "gain": 6.93
+        },
+        "ORACLE-RANK": {
+          "MR": 9.93,
+          "gain": 26.73
+        }
+      }
+    },
+    "yolov10x": {
+      "MR": 30.78,
+      "AP50": 86.05,
+      "recall": 92.96,
+      "error_budget": {
+        "true_positives": 10018,
+        "false_positives_total": 16600,
+        "fp_duplicate": 2939,
+        "fp_localisation": 1198,
+        "fp_background": 12463,
+        "fp_duplicate_pct": 17.7,
+        "fp_localisation_pct": 7.2,
+        "fp_background_pct": 75.1,
+        "objects_never_found": 759,
+        "objects_total": 10777,
+        "never_found_pct": 7.0
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.52,
+          "gain": 7.25
+        },
+        "ORACLE-DUP": {
+          "MR": 29.05,
+          "gain": 1.72
+        },
+        "ORACLE-BG": {
+          "MR": 22.24,
+          "gain": 8.53
+        },
+        "ORACLE-RANK": {
+          "MR": 7.04,
+          "gain": 23.74
+        }
+      }
+    },
+    "yolov3_sppu": {
+      "MR": 30.34,
+      "AP50": 85.69,
+      "recall": 92.25,
+      "error_budget": {
+        "true_positives": 9942,
+        "false_positives_total": 17246,
+        "fp_duplicate": 2625,
+        "fp_localisation": 1332,
+        "fp_background": 13289,
+        "fp_duplicate_pct": 15.2,
+        "fp_localisation_pct": 7.7,
+        "fp_background_pct": 77.1,
+        "objects_never_found": 835,
+        "objects_total": 10777,
+        "never_found_pct": 7.7
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.03,
+          "gain": 7.32
+        },
+        "ORACLE-DUP": {
+          "MR": 29.28,
+          "gain": 1.06
+        },
+        "ORACLE-BG": {
+          "MR": 21.71,
+          "gain": 8.63
+        },
+        "ORACLE-RANK": {
+          "MR": 7.75,
+          "gain": 22.59
+        }
+      }
+    },
+    "yolov3_tinyu": {
+      "MR": 48.43,
+      "AP50": 68.86,
+      "recall": 79.72,
+      "error_budget": {
+        "true_positives": 8591,
+        "false_positives_total": 33966,
+        "fp_duplicate": 5376,
+        "fp_localisation": 3298,
+        "fp_background": 25292,
+        "fp_duplicate_pct": 15.8,
+        "fp_localisation_pct": 9.7,
+        "fp_background_pct": 74.5,
+        "objects_never_found": 2186,
+        "objects_total": 10777,
+        "never_found_pct": 20.3
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 39.2,
+          "gain": 9.23
+        },
+        "ORACLE-DUP": {
+          "MR": 45.88,
+          "gain": 2.55
+        },
+        "ORACLE-BG": {
+          "MR": 43.87,
+          "gain": 4.56
+        },
+        "ORACLE-RANK": {
+          "MR": 20.28,
+          "gain": 28.15
+        }
+      }
+    },
+    "yolov3u": {
+      "MR": 30.32,
+      "AP50": 85.69,
+      "recall": 92.14,
+      "error_budget": {
+        "true_positives": 9930,
+        "false_positives_total": 16928,
+        "fp_duplicate": 2587,
+        "fp_localisation": 1315,
+        "fp_background": 13026,
+        "fp_duplicate_pct": 15.3,
+        "fp_localisation_pct": 7.8,
+        "fp_background_pct": 76.9,
+        "objects_never_found": 847,
+        "objects_total": 10777,
+        "never_found_pct": 7.9
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.96,
+          "gain": 7.36
+        },
+        "ORACLE-DUP": {
+          "MR": 29.04,
+          "gain": 1.28
+        },
+        "ORACLE-BG": {
+          "MR": 21.84,
+          "gain": 8.48
+        },
+        "ORACLE-RANK": {
+          "MR": 7.86,
+          "gain": 22.46
+        }
+      }
+    },
+    "yolov5lu": {
+      "MR": 31.0,
+      "AP50": 85.76,
+      "recall": 92.88,
+      "error_budget": {
+        "true_positives": 10010,
+        "false_positives_total": 20846,
+        "fp_duplicate": 2765,
+        "fp_localisation": 1398,
+        "fp_background": 16683,
+        "fp_duplicate_pct": 13.3,
+        "fp_localisation_pct": 6.7,
+        "fp_background_pct": 80.0,
+        "objects_never_found": 767,
+        "objects_total": 10777,
+        "never_found_pct": 7.1
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.47,
+          "gain": 7.53
+        },
+        "ORACLE-DUP": {
+          "MR": 29.95,
+          "gain": 1.05
+        },
+        "ORACLE-BG": {
+          "MR": 21.65,
+          "gain": 9.35
+        },
+        "ORACLE-RANK": {
+          "MR": 7.12,
+          "gain": 23.89
+        }
+      }
+    },
+    "yolov5mu": {
+      "MR": 32.63,
+      "AP50": 84.48,
+      "recall": 92.15,
+      "error_budget": {
+        "true_positives": 9931,
+        "false_positives_total": 24275,
+        "fp_duplicate": 3492,
+        "fp_localisation": 1666,
+        "fp_background": 19117,
+        "fp_duplicate_pct": 14.4,
+        "fp_localisation_pct": 6.9,
+        "fp_background_pct": 78.8,
+        "objects_never_found": 846,
+        "objects_total": 10777,
+        "never_found_pct": 7.9
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 24.96,
+          "gain": 7.67
+        },
+        "ORACLE-DUP": {
+          "MR": 31.34,
+          "gain": 1.29
+        },
+        "ORACLE-BG": {
+          "MR": 23.84,
+          "gain": 8.78
+        },
+        "ORACLE-RANK": {
+          "MR": 7.85,
+          "gain": 24.78
+        }
+      }
+    },
+    "yolov5nu": {
+      "MR": 44.1,
+      "AP50": 74.9,
+      "recall": 87.35,
+      "error_budget": {
+        "true_positives": 9414,
+        "false_positives_total": 40148,
+        "fp_duplicate": 6076,
+        "fp_localisation": 3105,
+        "fp_background": 30967,
+        "fp_duplicate_pct": 15.1,
+        "fp_localisation_pct": 7.7,
+        "fp_background_pct": 77.1,
+        "objects_never_found": 1363,
+        "objects_total": 10777,
+        "never_found_pct": 12.6
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 35.41,
+          "gain": 8.69
+        },
+        "ORACLE-DUP": {
+          "MR": 41.6,
+          "gain": 2.5
+        },
+        "ORACLE-BG": {
+          "MR": 38.45,
+          "gain": 5.65
+        },
+        "ORACLE-RANK": {
+          "MR": 12.65,
+          "gain": 31.45
+        }
+      }
+    },
+    "yolov5su": {
+      "MR": 37.25,
+      "AP50": 80.8,
+      "recall": 90.38,
+      "error_budget": {
+        "true_positives": 9740,
+        "false_positives_total": 28646,
+        "fp_duplicate": 4220,
+        "fp_localisation": 2296,
+        "fp_background": 22130,
+        "fp_duplicate_pct": 14.7,
+        "fp_localisation_pct": 8.0,
+        "fp_background_pct": 77.3,
+        "objects_never_found": 1037,
+        "objects_total": 10777,
+        "never_found_pct": 9.6
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 28.73,
+          "gain": 8.52
+        },
+        "ORACLE-DUP": {
+          "MR": 35.54,
+          "gain": 1.71
+        },
+        "ORACLE-BG": {
+          "MR": 30.05,
+          "gain": 7.19
+        },
+        "ORACLE-RANK": {
+          "MR": 9.62,
+          "gain": 27.62
+        }
+      }
+    },
+    "yolov5xu": {
+      "MR": 31.03,
+      "AP50": 86.03,
+      "recall": 92.86,
+      "error_budget": {
+        "true_positives": 10008,
+        "false_positives_total": 18312,
+        "fp_duplicate": 2461,
+        "fp_localisation": 1306,
+        "fp_background": 14545,
+        "fp_duplicate_pct": 13.4,
+        "fp_localisation_pct": 7.1,
+        "fp_background_pct": 79.4,
+        "objects_never_found": 769,
+        "objects_total": 10777,
+        "never_found_pct": 7.1
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.78,
+          "gain": 8.25
+        },
+        "ORACLE-DUP": {
+          "MR": 29.99,
+          "gain": 1.04
+        },
+        "ORACLE-BG": {
+          "MR": 21.74,
+          "gain": 9.29
+        },
+        "ORACLE-RANK": {
+          "MR": 7.14,
+          "gain": 23.9
+        }
+      }
+    },
+    "yolov8l": {
+      "MR": 30.83,
+      "AP50": 85.9,
+      "recall": 92.71,
+      "error_budget": {
+        "true_positives": 9991,
+        "false_positives_total": 18567,
+        "fp_duplicate": 2494,
+        "fp_localisation": 1335,
+        "fp_background": 14738,
+        "fp_duplicate_pct": 13.4,
+        "fp_localisation_pct": 7.2,
+        "fp_background_pct": 79.4,
+        "objects_never_found": 786,
+        "objects_total": 10777,
+        "never_found_pct": 7.3
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.0,
+          "gain": 7.84
+        },
+        "ORACLE-DUP": {
+          "MR": 29.7,
+          "gain": 1.13
+        },
+        "ORACLE-BG": {
+          "MR": 21.63,
+          "gain": 9.2
+        },
+        "ORACLE-RANK": {
+          "MR": 7.29,
+          "gain": 23.54
+        }
+      }
+    },
+    "yolov8m": {
+      "MR": 32.71,
+      "AP50": 84.67,
+      "recall": 92.21,
+      "error_budget": {
+        "true_positives": 9938,
+        "false_positives_total": 22866,
+        "fp_duplicate": 2941,
+        "fp_localisation": 1570,
+        "fp_background": 18355,
+        "fp_duplicate_pct": 12.9,
+        "fp_localisation_pct": 6.9,
+        "fp_background_pct": 80.3,
+        "objects_never_found": 839,
+        "objects_total": 10777,
+        "never_found_pct": 7.8
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 24.66,
+          "gain": 8.05
+        },
+        "ORACLE-DUP": {
+          "MR": 31.61,
+          "gain": 1.09
+        },
+        "ORACLE-BG": {
+          "MR": 23.17,
+          "gain": 9.54
+        },
+        "ORACLE-RANK": {
+          "MR": 7.79,
+          "gain": 24.92
+        }
+      }
+    },
+    "yolov8n": {
+      "MR": 41.54,
+      "AP50": 76.83,
+      "recall": 87.87,
+      "error_budget": {
+        "true_positives": 9470,
+        "false_positives_total": 36305,
+        "fp_duplicate": 5303,
+        "fp_localisation": 2775,
+        "fp_background": 28227,
+        "fp_duplicate_pct": 14.6,
+        "fp_localisation_pct": 7.6,
+        "fp_background_pct": 77.7,
+        "objects_never_found": 1307,
+        "objects_total": 10777,
+        "never_found_pct": 12.1
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 33.05,
+          "gain": 8.49
+        },
+        "ORACLE-DUP": {
+          "MR": 39.56,
+          "gain": 1.98
+        },
+        "ORACLE-BG": {
+          "MR": 35.18,
+          "gain": 6.36
+        },
+        "ORACLE-RANK": {
+          "MR": 12.13,
+          "gain": 29.41
+        }
+      }
+    },
+    "yolov8s": {
+      "MR": 36.34,
+      "AP50": 81.66,
+      "recall": 90.78,
+      "error_budget": {
+        "true_positives": 9783,
+        "false_positives_total": 28781,
+        "fp_duplicate": 3957,
+        "fp_localisation": 2152,
+        "fp_background": 22672,
+        "fp_duplicate_pct": 13.7,
+        "fp_localisation_pct": 7.5,
+        "fp_background_pct": 78.8,
+        "objects_never_found": 994,
+        "objects_total": 10777,
+        "never_found_pct": 9.2
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 27.62,
+          "gain": 8.72
+        },
+        "ORACLE-DUP": {
+          "MR": 34.98,
+          "gain": 1.36
+        },
+        "ORACLE-BG": {
+          "MR": 28.17,
+          "gain": 8.16
+        },
+        "ORACLE-RANK": {
+          "MR": 9.22,
+          "gain": 27.11
+        }
+      }
+    },
+    "yolov8x": {
+      "MR": 30.33,
+      "AP50": 86.31,
+      "recall": 93.04,
+      "error_budget": {
+        "true_positives": 10027,
+        "false_positives_total": 17659,
+        "fp_duplicate": 2248,
+        "fp_localisation": 1212,
+        "fp_background": 14199,
+        "fp_duplicate_pct": 12.7,
+        "fp_localisation_pct": 6.9,
+        "fp_background_pct": 80.4,
+        "objects_never_found": 750,
+        "objects_total": 10777,
+        "never_found_pct": 7.0
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.83,
+          "gain": 7.5
+        },
+        "ORACLE-DUP": {
+          "MR": 29.33,
+          "gain": 1.0
+        },
+        "ORACLE-BG": {
+          "MR": 20.66,
+          "gain": 9.68
+        },
+        "ORACLE-RANK": {
+          "MR": 6.96,
+          "gain": 23.37
+        }
+      }
+    },
+    "yolov9c": {
+      "MR": 30.94,
+      "AP50": 85.65,
+      "recall": 92.6,
+      "error_budget": {
+        "true_positives": 9979,
+        "false_positives_total": 19378,
+        "fp_duplicate": 2587,
+        "fp_localisation": 1398,
+        "fp_background": 15393,
+        "fp_duplicate_pct": 13.4,
+        "fp_localisation_pct": 7.2,
+        "fp_background_pct": 79.4,
+        "objects_never_found": 798,
+        "objects_total": 10777,
+        "never_found_pct": 7.4
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 23.51,
+          "gain": 7.43
+        },
+        "ORACLE-DUP": {
+          "MR": 29.89,
+          "gain": 1.04
+        },
+        "ORACLE-BG": {
+          "MR": 21.97,
+          "gain": 8.97
+        },
+        "ORACLE-RANK": {
+          "MR": 7.4,
+          "gain": 23.53
+        }
+      }
+    },
+    "yolov9e": {
+      "MR": 29.67,
+      "AP50": 86.76,
+      "recall": 93.24,
+      "error_budget": {
+        "true_positives": 10049,
+        "false_positives_total": 16120,
+        "fp_duplicate": 2098,
+        "fp_localisation": 1143,
+        "fp_background": 12879,
+        "fp_duplicate_pct": 13.0,
+        "fp_localisation_pct": 7.1,
+        "fp_background_pct": 79.9,
+        "objects_never_found": 728,
+        "objects_total": 10777,
+        "never_found_pct": 6.8
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 22.32,
+          "gain": 7.36
+        },
+        "ORACLE-DUP": {
+          "MR": 28.54,
+          "gain": 1.13
+        },
+        "ORACLE-BG": {
+          "MR": 20.17,
+          "gain": 9.5
+        },
+        "ORACLE-RANK": {
+          "MR": 6.76,
+          "gain": 22.92
+        }
+      }
+    },
+    "yolov9m": {
+      "MR": 32.21,
+      "AP50": 84.87,
+      "recall": 92.14,
+      "error_budget": {
+        "true_positives": 9930,
+        "false_positives_total": 21040,
+        "fp_duplicate": 2811,
+        "fp_localisation": 1419,
+        "fp_background": 16810,
+        "fp_duplicate_pct": 13.4,
+        "fp_localisation_pct": 6.7,
+        "fp_background_pct": 79.9,
+        "objects_never_found": 847,
+        "objects_total": 10777,
+        "never_found_pct": 7.9
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 24.54,
+          "gain": 7.67
+        },
+        "ORACLE-DUP": {
+          "MR": 31.08,
+          "gain": 1.13
+        },
+        "ORACLE-BG": {
+          "MR": 23.02,
+          "gain": 9.2
+        },
+        "ORACLE-RANK": {
+          "MR": 7.86,
+          "gain": 24.35
+        }
+      }
+    },
+    "yolov9s": {
+      "MR": 35.01,
+      "AP50": 82.25,
+      "recall": 90.47,
+      "error_budget": {
+        "true_positives": 9750,
+        "false_positives_total": 25012,
+        "fp_duplicate": 3243,
+        "fp_localisation": 1942,
+        "fp_background": 19827,
+        "fp_duplicate_pct": 13.0,
+        "fp_localisation_pct": 7.8,
+        "fp_background_pct": 79.3,
+        "objects_never_found": 1027,
+        "objects_total": 10777,
+        "never_found_pct": 9.5
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 26.44,
+          "gain": 8.57
+        },
+        "ORACLE-DUP": {
+          "MR": 33.76,
+          "gain": 1.25
+        },
+        "ORACLE-BG": {
+          "MR": 26.81,
+          "gain": 8.19
+        },
+        "ORACLE-RANK": {
+          "MR": 9.53,
+          "gain": 25.48
+        }
+      }
+    },
+    "yolov9t": {
+      "MR": 40.41,
+      "AP50": 77.59,
+      "recall": 88.2,
+      "error_budget": {
+        "true_positives": 9505,
+        "false_positives_total": 33853,
+        "fp_duplicate": 4799,
+        "fp_localisation": 2639,
+        "fp_background": 26415,
+        "fp_duplicate_pct": 14.2,
+        "fp_localisation_pct": 7.8,
+        "fp_background_pct": 78.0,
+        "objects_never_found": 1272,
+        "objects_total": 10777,
+        "never_found_pct": 11.8
+      },
+      "oracles": {
+        "ORACLE-LOC": {
+          "MR": 31.94,
+          "gain": 8.46
+        },
+        "ORACLE-DUP": {
+          "MR": 38.81,
+          "gain": 1.6
+        },
+        "ORACLE-BG": {
+          "MR": 33.61,
+          "gain": 6.79
+        },
+        "ORACLE-RANK": {
+          "MR": 11.8,
+          "gain": 28.6
+        }
+      }
+    }
+  },
+  "ensemble": {
+    "objects_total": 10777,
+    "found_by_best_single_model": 10370,
+    "best_single_model": "rtdetr_x",
+    "found_by_any_model": 10682,
+    "recall_best_single_pct": 96.22,
+    "recall_oracle_ensemble_pct": 99.12,
+    "headroom_pct": 2.9,
+    "found_by_none": 95,
+    "found_by_none_pct": 0.88,
+    "interpretation": "headroom is the recall a perfect per-object model selector would add over the best single model; found_by_none is the floor no selection strategy over this model set can cross"
+  }
+}

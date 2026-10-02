@@ -1,0 +1,55 @@
+{
+  "model": "ssd300_vgg16",
+  "dataset": "LLVIP visible",
+  "seed": 20260822,
+  "schedule": {
+    "epochs": 2,
+    "batch": 2,
+    "grad_accum": 4,
+    "effective_batch": 8,
+    "lr": 0.005,
+    "optimiser": "SGD momentum 0.9, weight decay 1e-4",
+    "amp": true,
+    "augmentation": "horizontal flip only"
+  },
+  "splits": {
+    "train": 10823,
+    "val": 1202,
+    "test": 3463
+  },
+  "note": "the test split is evaluated once, after the schedule was fixed; validation is carved from training images only",
+  "baseline": {
+    "val": {
+      "MR": 75.7,
+      "AP50": 39.82,
+      "recall": 64.54
+    },
+    "test": {
+      "MR": 50.4,
+      "AP50": 65.85,
+      "recall": 83.93
+    }
+  },
+  "training": {
+    "seconds": 452.9,
+    "optimiser_steps": 2704,
+    "peak_alloc_MiB": 644
+  },
+  "finetuned": {
+    "val": {
+      "MR": 34.34,
+      "AP50": 84.17,
+      "recall": 94.96
+    },
+    "test": {
+      "MR": 39.62,
+      "AP50": 81.71,
+      "recall": 94.88
+    }
+  },
+  "improvement": {
+    "val_MR_delta": 41.36,
+    "test_MR_delta": 10.78,
+    "test_recall_delta": 10.95
+  }
+}

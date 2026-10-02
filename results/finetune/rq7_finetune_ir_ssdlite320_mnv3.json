@@ -1,0 +1,55 @@
+{
+  "model": "ssdlite320_mnv3",
+  "dataset": "LLVIP infrared",
+  "seed": 20260822,
+  "schedule": {
+    "epochs": 2,
+    "batch": 2,
+    "grad_accum": 4,
+    "effective_batch": 8,
+    "lr": 0.005,
+    "optimiser": "SGD momentum 0.9, weight decay 1e-4",
+    "amp": true,
+    "augmentation": "horizontal flip only"
+  },
+  "splits": {
+    "train": 10823,
+    "val": 1202,
+    "test": 3463
+  },
+  "note": "the test split is evaluated once, after the schedule was fixed; validation is carved from training images only",
+  "baseline": {
+    "val": {
+      "MR": 94.32,
+      "AP50": 9.46,
+      "recall": 50.12
+    },
+    "test": {
+      "MR": 92.71,
+      "AP50": 14.54,
+      "recall": 64.27
+    }
+  },
+  "training": {
+    "seconds": 677.5,
+    "optimiser_steps": 2704,
+    "peak_alloc_MiB": 180
+  },
+  "finetuned": {
+    "val": {
+      "MR": 29.34,
+      "AP50": 89.61,
+      "recall": 97.42
+    },
+    "test": {
+      "MR": 34.07,
+      "AP50": 85.91,
+      "recall": 97.98
+    }
+  },
+  "improvement": {
+    "val_MR_delta": 64.98,
+    "test_MR_delta": 58.65,
+    "test_recall_delta": 33.7
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "model": "retinanet_r50_fpn_v2",
+  "dataset": "LLVIP infrared",
+  "seed": 20260822,
+  "schedule": {
+    "epochs": 2,
+    "batch": 2,
+    "grad_accum": 4,
+    "effective_batch": 8,
+    "lr": 0.005,
+    "optimiser": "SGD momentum 0.9, weight decay 1e-4",
+    "amp": true,
+    "augmentation": "horizontal flip only"
+  },
+  "splits": {
+    "train": 10823,
+    "val": 1202,
+    "test": 3463
+  },
+  "note": "the test split is evaluated once, after the schedule was fixed; validation is carved from training images only",
+  "baseline": {
+    "val": {
+      "MR": 71.79,
+      "AP50": 45.52,
+      "recall": 66.62
+    },
+    "test": {
+      "MR": 51.98,
+      "AP50": 70.03,
+      "recall": 89.48
+    }
+  },
+  "training": {
+    "seconds": 1872.2,
+    "optimiser_steps": 2704,
+    "peak_alloc_MiB": 3050
+  },
+  "finetuned": {
+    "val": {
+      "MR": 11.6,
+      "AP50": 96.71,
+      "recall": 99.24
+    },
+    "test": {
+      "MR": 9.06,
+      "AP50": 96.67,
+      "recall": 99.23
+    }
+  },
+  "improvement": {
+    "val_MR_delta": 60.2,
+    "test_MR_delta": 42.92,
+    "test_recall_delta": 9.74
+  }
+}

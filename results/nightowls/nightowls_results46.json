@@ -1,0 +1,1539 @@
+{
+  "dataset": "NightOwls validation",
+  "illumination": "night",
+  "subset": "Reasonable: pedestrian, height >= 50 px, not occluded, not difficult, not ignore",
+  "n_images": 51848,
+  "n_admitted_pedestrians": 7531,
+  "n_tracks_evaluable_2plus": 244,
+  "temporal_operating_point": 0.5,
+  "miss_run_threshold_frames": 5,
+  "frame_level": {
+    "faster_rcnn_r50_fpn_v2": {
+      "MR": 15.63,
+      "AP50": 79.71,
+      "recall": 96.15
+    },
+    "fcos_r50_fpn": {
+      "MR": 24.84,
+      "AP50": 69.9,
+      "recall": 92.91
+    },
+    "retinanet_r50_fpn_v2": {
+      "MR": 23.44,
+      "AP50": 72.73,
+      "recall": 94.18
+    },
+    "rtdetr_l": {
+      "MR": 18.0,
+      "AP50": 78.02,
+      "recall": 96.83
+    },
+    "rtdetr_x": {
+      "MR": 17.4,
+      "AP50": 78.53,
+      "recall": 96.39
+    },
+    "ssd300_vgg16": {
+      "MR": 55.33,
+      "AP50": 35.85,
+      "recall": 75.7
+    },
+    "ssdlite320_mnv3": {
+      "MR": 82.11,
+      "AP50": 11.03,
+      "recall": 60.06
+    },
+    "yolo11l": {
+      "MR": 17.99,
+      "AP50": 77.76,
+      "recall": 91.94
+    },
+    "yolo11m": {
+      "MR": 19.04,
+      "AP50": 77.1,
+      "recall": 91.71
+    },
+    "yolo11n": {
+      "MR": 34.69,
+      "AP50": 61.29,
+      "recall": 88.37
+    },
+    "yolo11s": {
+      "MR": 23.67,
+      "AP50": 72.35,
+      "recall": 91.52
+    },
+    "yolo11x": {
+      "MR": 15.06,
+      "AP50": 80.44,
+      "recall": 93.12
+    },
+    "yolo12l": {
+      "MR": 17.1,
+      "AP50": 79.03,
+      "recall": 92.22
+    },
+    "yolo12m": {
+      "MR": 19.18,
+      "AP50": 76.91,
+      "recall": 90.76
+    },
+    "yolo12n": {
+      "MR": 32.29,
+      "AP50": 63.9,
+      "recall": 87.37
+    },
+    "yolo12s": {
+      "MR": 23.73,
+      "AP50": 72.1,
+      "recall": 89.93
+    },
+    "yolo12x": {
+      "MR": 15.73,
+      "AP50": 80.19,
+      "recall": 92.71
+    },
+    "yolo26l": {
+      "MR": 16.9,
+      "AP50": 78.84,
+      "recall": 91.98
+    },
+    "yolo26m": {
+      "MR": 17.91,
+      "AP50": 77.67,
+      "recall": 91.66
+    },
+    "yolo26n": {
+      "MR": 35.4,
+      "AP50": 60.07,
+      "recall": 85.73
+    },
+    "yolo26s": {
+      "MR": 23.46,
+      "AP50": 72.36,
+      "recall": 89.46
+    },
+    "yolo26x": {
+      "MR": 14.42,
+      "AP50": 81.35,
+      "recall": 93.19
+    },
+    "yolov10b": {
+      "MR": 16.62,
+      "AP50": 79.07,
+      "recall": 92.21
+    },
+    "yolov10l": {
+      "MR": 16.3,
+      "AP50": 79.31,
+      "recall": 92.39
+    },
+    "yolov10m": {
+      "MR": 18.6,
+      "AP50": 77.49,
+      "recall": 90.97
+    },
+    "yolov10n": {
+      "MR": 36.15,
+      "AP50": 58.77,
+      "recall": 87.07
+    },
+    "yolov10s": {
+      "MR": 24.62,
+      "AP50": 71.2,
+      "recall": 89.4
+    },
+    "yolov10x": {
+      "MR": 14.94,
+      "AP50": 80.72,
+      "recall": 93.31
+    },
+    "yolov3_sppu": {
+      "MR": 15.89,
+      "AP50": 79.77,
+      "recall": 92.76
+    },
+    "yolov3_tinyu": {
+      "MR": 43.25,
+      "AP50": 51.28,
+      "recall": 83.57
+    },
+    "yolov3u": {
+      "MR": 17.42,
+      "AP50": 78.58,
+      "recall": 92.31
+    },
+    "yolov5lu": {
+      "MR": 18.13,
+      "AP50": 77.7,
+      "recall": 92.8
+    },
+    "yolov5mu": {
+      "MR": 20.38,
+      "AP50": 75.4,
+      "recall": 91.86
+    },
+    "yolov5nu": {
+      "MR": 34.61,
+      "AP50": 61.04,
+      "recall": 91.24
+    },
+    "yolov5su": {
+      "MR": 25.51,
+      "AP50": 70.39,
+      "recall": 90.84
+    },
+    "yolov5xu": {
+      "MR": 15.92,
+      "AP50": 79.45,
+      "recall": 93.45
+    },
+    "yolov8l": {
+      "MR": 16.45,
+      "AP50": 79.22,
+      "recall": 93.04
+    },
+    "yolov8m": {
+      "MR": 18.98,
+      "AP50": 76.56,
+      "recall": 92.8
+    },
+    "yolov8n": {
+      "MR": 35.08,
+      "AP50": 61.14,
+      "recall": 88.31
+    },
+    "yolov8s": {
+      "MR": 24.79,
+      "AP50": 71.17,
+      "recall": 91.91
+    },
+    "yolov8x": {
+      "MR": 15.97,
+      "AP50": 79.66,
+      "recall": 93.45
+    },
+    "yolov9c": {
+      "MR": 17.79,
+      "AP50": 77.92,
+      "recall": 93.2
+    },
+    "yolov9e": {
+      "MR": 14.51,
+      "AP50": 80.49,
+      "recall": 93.84
+    },
+    "yolov9m": {
+      "MR": 17.65,
+      "AP50": 78.04,
+      "recall": 93.29
+    },
+    "yolov9s": {
+      "MR": 24.42,
+      "AP50": 71.73,
+      "recall": 90.65
+    },
+    "yolov9t": {
+      "MR": 32.57,
+      "AP50": 63.13,
+      "recall": 88.29
+    }
+  },
+  "temporal": {
+    "faster_rcnn_r50_fpn_v2": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 3.0,
+        "never_detected": 5
+      },
+      "longest_miss_run_frames": {
+        "median": 0.0,
+        "p90": 4.0,
+        "max": 28
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 8.61
+    },
+    "fcos_r50_fpn": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 5.700000000000017,
+        "never_detected": 11
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 7.700000000000017,
+        "max": 40
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 20.08
+    },
+    "retinanet_r50_fpn_v2": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 17.700000000000017,
+        "never_detected": 20
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 21.0,
+        "max": 55
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 27.87
+    },
+    "rtdetr_l": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 10.700000000000017,
+        "never_detected": 20
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 15.400000000000034,
+        "max": 49
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 26.64
+    },
+    "rtdetr_x": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 10.700000000000017,
+        "never_detected": 20
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 16.0,
+        "max": 46
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 28.69
+    },
+    "ssd300_vgg16": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 7.0,
+        "p90": 38.0,
+        "never_detected": 105
+      },
+      "longest_miss_run_frames": {
+        "median": 9.0,
+        "p90": 46.400000000000034,
+        "max": 110
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 66.8
+    },
+    "ssdlite320_mnv3": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 14.5,
+        "p90": 59.400000000000034,
+        "never_detected": 178
+      },
+      "longest_miss_run_frames": {
+        "median": 15.0,
+        "p90": 60.0,
+        "max": 391
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 75.0
+    },
+    "yolo11l": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 24.0,
+        "never_detected": 34
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 25.0,
+        "max": 69
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 32.79
+    },
+    "yolo11m": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 22.700000000000017,
+        "never_detected": 31
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 23.0,
+        "max": 80
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 31.97
+    },
+    "yolo11n": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 3.0,
+        "p90": 29.700000000000017,
+        "never_detected": 57
+      },
+      "longest_miss_run_frames": {
+        "median": 4.0,
+        "p90": 30.0,
+        "max": 89
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 47.13
+    },
+    "yolo11s": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.5,
+        "p90": 24.700000000000017,
+        "never_detected": 43
+      },
+      "longest_miss_run_frames": {
+        "median": 3.0,
+        "p90": 24.700000000000017,
+        "max": 81
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 37.7
+    },
+    "yolo11x": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 16.0,
+        "never_detected": 27
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 16.0,
+        "max": 75
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 29.1
+    },
+    "yolo12l": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 22.0,
+        "never_detected": 35
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 22.0,
+        "max": 78
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 33.61
+    },
+    "yolo12m": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 22.0,
+        "never_detected": 35
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 23.400000000000034,
+        "max": 78
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 34.43
+    },
+    "yolo12n": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 4.5,
+        "p90": 32.70000000000002,
+        "never_detected": 72
+      },
+      "longest_miss_run_frames": {
+        "median": 5.0,
+        "p90": 33.0,
+        "max": 99
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 56.97
+    },
+    "yolo12s": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 2.0,
+        "p90": 28.0,
+        "never_detected": 53
+      },
+      "longest_miss_run_frames": {
+        "median": 3.0,
+        "p90": 28.0,
+        "max": 90
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 43.85
+    },
+    "yolo12x": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 17.700000000000017,
+        "never_detected": 28
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 20.0,
+        "max": 76
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 31.97
+    },
+    "yolo26l": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 16.0,
+        "never_detected": 23
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 18.400000000000034,
+        "max": 51
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 28.69
+    },
+    "yolo26m": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 17.700000000000017,
+        "never_detected": 22
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 22.700000000000017,
+        "max": 82
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 31.56
+    },
+    "yolo26n": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 4.0,
+        "p90": 33.0,
+        "never_detected": 66
+      },
+      "longest_miss_run_frames": {
+        "median": 6.0,
+        "p90": 33.0,
+        "max": 100
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 54.51
+    },
+    "yolo26s": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 23.700000000000017,
+        "never_detected": 30
+      },
+      "longest_miss_run_frames": {
+        "median": 2.5,
+        "p90": 25.0,
+        "max": 87
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 37.7
+    },
+    "yolo26x": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 11.0,
+        "never_detected": 15
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 13.700000000000017,
+        "max": 46
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 25.82
+    },
+    "yolov10b": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 21.10000000000005,
+        "never_detected": 29
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 22.700000000000017,
+        "max": 56
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 34.84
+    },
+    "yolov10l": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.5,
+        "p90": 13.700000000000017,
+        "never_detected": 26
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 17.0,
+        "max": 54
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 32.38
+    },
+    "yolov10m": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 20.10000000000005,
+        "never_detected": 28
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 23.400000000000034,
+        "max": 75
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 35.66
+    },
+    "yolov10n": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 4.0,
+        "p90": 31.0,
+        "never_detected": 73
+      },
+      "longest_miss_run_frames": {
+        "median": 5.0,
+        "p90": 31.0,
+        "max": 101
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 53.69
+    },
+    "yolov10s": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 2.0,
+        "p90": 24.700000000000017,
+        "never_detected": 38
+      },
+      "longest_miss_run_frames": {
+        "median": 3.0,
+        "p90": 25.0,
+        "max": 75
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 37.7
+    },
+    "yolov10x": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 16.0,
+        "never_detected": 20
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 18.700000000000017,
+        "max": 68
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 29.92
+    },
+    "yolov3_sppu": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 17.0,
+        "never_detected": 28
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 19.700000000000017,
+        "max": 53
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 30.74
+    },
+    "yolov3_tinyu": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 5.0,
+        "p90": 39.400000000000034,
+        "never_detected": 88
+      },
+      "longest_miss_run_frames": {
+        "median": 6.0,
+        "p90": 39.400000000000034,
+        "max": 101
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 59.43
+    },
+    "yolov3u": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 17.700000000000017,
+        "never_detected": 28
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 19.0,
+        "max": 75
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 33.61
+    },
+    "yolov5lu": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 16.0,
+        "never_detected": 20
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 18.0,
+        "max": 58
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 32.38
+    },
+    "yolov5mu": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 19.400000000000034,
+        "never_detected": 36
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 20.700000000000017,
+        "max": 75
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 35.66
+    },
+    "yolov5nu": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 3.0,
+        "p90": 28.0,
+        "never_detected": 56
+      },
+      "longest_miss_run_frames": {
+        "median": 4.5,
+        "p90": 28.0,
+        "max": 99
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 50.0
+    },
+    "yolov5su": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 2.0,
+        "p90": 26.0,
+        "never_detected": 42
+      },
+      "longest_miss_run_frames": {
+        "median": 3.0,
+        "p90": 26.0,
+        "max": 93
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 40.16
+    },
+    "yolov5xu": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 12.0,
+        "never_detected": 23
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 16.700000000000017,
+        "max": 48
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 31.97
+    },
+    "yolov8l": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 15.400000000000034,
+        "never_detected": 21
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 16.0,
+        "max": 58
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 29.51
+    },
+    "yolov8m": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 17.700000000000017,
+        "never_detected": 24
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 18.0,
+        "max": 75
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 32.38
+    },
+    "yolov8n": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 3.0,
+        "p90": 28.700000000000017,
+        "never_detected": 45
+      },
+      "longest_miss_run_frames": {
+        "median": 4.0,
+        "p90": 28.700000000000017,
+        "max": 97
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 45.9
+    },
+    "yolov8s": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 24.700000000000017,
+        "never_detected": 34
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 25.0,
+        "max": 88
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 34.02
+    },
+    "yolov8x": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 12.0,
+        "never_detected": 20
+      },
+      "longest_miss_run_frames": {
+        "median": 1.5,
+        "p90": 15.700000000000017,
+        "max": 49
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 28.69
+    },
+    "yolov9c": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 16.700000000000017,
+        "never_detected": 21
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 17.0,
+        "max": 50
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 30.33
+    },
+    "yolov9e": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 0.0,
+        "p90": 11.0,
+        "never_detected": 16
+      },
+      "longest_miss_run_frames": {
+        "median": 1.0,
+        "p90": 14.700000000000017,
+        "max": 64
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 29.1
+    },
+    "yolov9m": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 17.0,
+        "never_detected": 22
+      },
+      "longest_miss_run_frames": {
+        "median": 1.5,
+        "p90": 19.700000000000017,
+        "max": 53
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 29.51
+    },
+    "yolov9s": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 1.0,
+        "p90": 25.0,
+        "never_detected": 33
+      },
+      "longest_miss_run_frames": {
+        "median": 2.0,
+        "p90": 25.700000000000017,
+        "max": 81
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 36.07
+    },
+    "yolov9t": {
+      "n_tracks": 244,
+      "first_detection_delay_frames": {
+        "median": 2.5,
+        "p90": 28.0,
+        "never_detected": 49
+      },
+      "longest_miss_run_frames": {
+        "median": 4.0,
+        "p90": 28.0,
+        "max": 95
+      },
+      "tracks_with_miss_run_ge_threshold_pct": 44.26
+    }
+  },
+  "bootstrap": {
+    "per_model": {
+      "faster_rcnn_r50_fpn_v2": {
+        "MR": {
+          "point": 15.63,
+          "ci_low": 14.84,
+          "ci_high": 16.47,
+          "boot_sd": 0.429
+        },
+        "AP50": {
+          "point": 79.71,
+          "ci_low": 78.62,
+          "ci_high": 80.84,
+          "boot_sd": 0.554
+        }
+      },
+      "fcos_r50_fpn": {
+        "MR": {
+          "point": 24.84,
+          "ci_low": 23.96,
+          "ci_high": 25.86,
+          "boot_sd": 0.496
+        },
+        "AP50": {
+          "point": 69.9,
+          "ci_low": 68.76,
+          "ci_high": 71.1,
+          "boot_sd": 0.62
+        }
+      },
+      "retinanet_r50_fpn_v2": {
+        "MR": {
+          "point": 23.44,
+          "ci_low": 22.49,
+          "ci_high": 24.45,
+          "boot_sd": 0.497
+        },
+        "AP50": {
+          "point": 72.73,
+          "ci_low": 71.6,
+          "ci_high": 73.97,
+          "boot_sd": 0.609
+        }
+      },
+      "rtdetr_l": {
+        "MR": {
+          "point": 18.0,
+          "ci_low": 17.13,
+          "ci_high": 18.83,
+          "boot_sd": 0.447
+        },
+        "AP50": {
+          "point": 78.02,
+          "ci_low": 77.0,
+          "ci_high": 79.12,
+          "boot_sd": 0.566
+        }
+      },
+      "rtdetr_x": {
+        "MR": {
+          "point": 17.4,
+          "ci_low": 16.58,
+          "ci_high": 18.21,
+          "boot_sd": 0.447
+        },
+        "AP50": {
+          "point": 78.53,
+          "ci_low": 77.55,
+          "ci_high": 79.59,
+          "boot_sd": 0.559
+        }
+      },
+      "ssd300_vgg16": {
+        "MR": {
+          "point": 55.33,
+          "ci_low": 54.22,
+          "ci_high": 56.42,
+          "boot_sd": 0.553
+        },
+        "AP50": {
+          "point": 35.85,
+          "ci_low": 34.55,
+          "ci_high": 37.13,
+          "boot_sd": 0.662
+        }
+      },
+      "ssdlite320_mnv3": {
+        "MR": {
+          "point": 82.11,
+          "ci_low": 81.24,
+          "ci_high": 82.92,
+          "boot_sd": 0.42
+        },
+        "AP50": {
+          "point": 11.03,
+          "ci_low": 10.21,
+          "ci_high": 11.85,
+          "boot_sd": 0.436
+        }
+      },
+      "yolo11l": {
+        "MR": {
+          "point": 17.99,
+          "ci_low": 17.06,
+          "ci_high": 18.79,
+          "boot_sd": 0.453
+        },
+        "AP50": {
+          "point": 77.76,
+          "ci_low": 76.79,
+          "ci_high": 78.95,
+          "boot_sd": 0.583
+        }
+      },
+      "yolo11m": {
+        "MR": {
+          "point": 19.04,
+          "ci_low": 18.1,
+          "ci_high": 19.89,
+          "boot_sd": 0.471
+        },
+        "AP50": {
+          "point": 77.1,
+          "ci_low": 76.05,
+          "ci_high": 78.28,
+          "boot_sd": 0.582
+        }
+      },
+      "yolo11n": {
+        "MR": {
+          "point": 34.69,
+          "ci_low": 33.54,
+          "ci_high": 35.82,
+          "boot_sd": 0.591
+        },
+        "AP50": {
+          "point": 61.29,
+          "ci_low": 60.0,
+          "ci_high": 62.72,
+          "boot_sd": 0.706
+        }
+      },
+      "yolo11s": {
+        "MR": {
+          "point": 23.67,
+          "ci_low": 22.71,
+          "ci_high": 24.62,
+          "boot_sd": 0.498
+        },
+        "AP50": {
+          "point": 72.35,
+          "ci_low": 71.24,
+          "ci_high": 73.59,
+          "boot_sd": 0.615
+        }
+      },
+      "yolo11x": {
+        "MR": {
+          "point": 15.06,
+          "ci_low": 14.3,
+          "ci_high": 15.86,
+          "boot_sd": 0.409
+        },
+        "AP50": {
+          "point": 80.44,
+          "ci_low": 79.41,
+          "ci_high": 81.58,
+          "boot_sd": 0.541
+        }
+      },
+      "yolo12l": {
+        "MR": {
+          "point": 17.1,
+          "ci_low": 16.25,
+          "ci_high": 17.93,
+          "boot_sd": 0.442
+        },
+        "AP50": {
+          "point": 79.03,
+          "ci_low": 78.03,
+          "ci_high": 80.18,
+          "boot_sd": 0.557
+        }
+      },
+      "yolo12m": {
+        "MR": {
+          "point": 19.18,
+          "ci_low": 18.35,
+          "ci_high": 20.05,
+          "boot_sd": 0.457
+        },
+        "AP50": {
+          "point": 76.91,
+          "ci_low": 75.86,
+          "ci_high": 78.04,
+          "boot_sd": 0.569
+        }
+      },
+      "yolo12n": {
+        "MR": {
+          "point": 32.29,
+          "ci_low": 31.25,
+          "ci_high": 33.44,
+          "boot_sd": 0.561
+        },
+        "AP50": {
+          "point": 63.9,
+          "ci_low": 62.67,
+          "ci_high": 65.22,
+          "boot_sd": 0.654
+        }
+      },
+      "yolo12s": {
+        "MR": {
+          "point": 23.73,
+          "ci_low": 22.75,
+          "ci_high": 24.72,
+          "boot_sd": 0.504
+        },
+        "AP50": {
+          "point": 72.1,
+          "ci_low": 70.94,
+          "ci_high": 73.36,
+          "boot_sd": 0.622
+        }
+      },
+      "yolo12x": {
+        "MR": {
+          "point": 15.73,
+          "ci_low": 15.02,
+          "ci_high": 16.52,
+          "boot_sd": 0.411
+        },
+        "AP50": {
+          "point": 80.19,
+          "ci_low": 79.22,
+          "ci_high": 81.21,
+          "boot_sd": 0.523
+        }
+      },
+      "yolo26l": {
+        "MR": {
+          "point": 16.9,
+          "ci_low": 16.02,
+          "ci_high": 17.74,
+          "boot_sd": 0.426
+        },
+        "AP50": {
+          "point": 78.84,
+          "ci_low": 77.91,
+          "ci_high": 79.99,
+          "boot_sd": 0.558
+        }
+      },
+      "yolo26m": {
+        "MR": {
+          "point": 17.91,
+          "ci_low": 17.03,
+          "ci_high": 18.8,
+          "boot_sd": 0.445
+        },
+        "AP50": {
+          "point": 77.67,
+          "ci_low": 76.62,
+          "ci_high": 78.83,
+          "boot_sd": 0.576
+        }
+      },
+      "yolo26n": {
+        "MR": {
+          "point": 35.4,
+          "ci_low": 34.39,
+          "ci_high": 36.52,
+          "boot_sd": 0.547
+        },
+        "AP50": {
+          "point": 60.07,
+          "ci_low": 58.84,
+          "ci_high": 61.41,
+          "boot_sd": 0.661
+        }
+      },
+      "yolo26s": {
+        "MR": {
+          "point": 23.46,
+          "ci_low": 22.48,
+          "ci_high": 24.49,
+          "boot_sd": 0.53
+        },
+        "AP50": {
+          "point": 72.36,
+          "ci_low": 71.21,
+          "ci_high": 73.64,
+          "boot_sd": 0.647
+        }
+      },
+      "yolo26x": {
+        "MR": {
+          "point": 14.42,
+          "ci_low": 13.54,
+          "ci_high": 15.2,
+          "boot_sd": 0.409
+        },
+        "AP50": {
+          "point": 81.35,
+          "ci_low": 80.37,
+          "ci_high": 82.44,
+          "boot_sd": 0.53
+        }
+      },
+      "yolov10b": {
+        "MR": {
+          "point": 16.62,
+          "ci_low": 15.8,
+          "ci_high": 17.46,
+          "boot_sd": 0.433
+        },
+        "AP50": {
+          "point": 79.07,
+          "ci_low": 78.03,
+          "ci_high": 80.2,
+          "boot_sd": 0.566
+        }
+      },
+      "yolov10l": {
+        "MR": {
+          "point": 16.3,
+          "ci_low": 15.48,
+          "ci_high": 17.13,
+          "boot_sd": 0.424
+        },
+        "AP50": {
+          "point": 79.31,
+          "ci_low": 78.32,
+          "ci_high": 80.44,
+          "boot_sd": 0.557
+        }
+      },
+      "yolov10m": {
+        "MR": {
+          "point": 18.6,
+          "ci_low": 17.76,
+          "ci_high": 19.47,
+          "boot_sd": 0.451
+        },
+        "AP50": {
+          "point": 77.49,
+          "ci_low": 76.49,
+          "ci_high": 78.59,
+          "boot_sd": 0.559
+        }
+      },
+      "yolov10n": {
+        "MR": {
+          "point": 36.15,
+          "ci_low": 35.13,
+          "ci_high": 37.35,
+          "boot_sd": 0.564
+        },
+        "AP50": {
+          "point": 58.77,
+          "ci_low": 57.49,
+          "ci_high": 60.16,
+          "boot_sd": 0.678
+        }
+      },
+      "yolov10s": {
+        "MR": {
+          "point": 24.62,
+          "ci_low": 23.67,
+          "ci_high": 25.6,
+          "boot_sd": 0.501
+        },
+        "AP50": {
+          "point": 71.2,
+          "ci_low": 70.04,
+          "ci_high": 72.38,
+          "boot_sd": 0.61
+        }
+      },
+      "yolov10x": {
+        "MR": {
+          "point": 14.94,
+          "ci_low": 14.09,
+          "ci_high": 15.75,
+          "boot_sd": 0.416
+        },
+        "AP50": {
+          "point": 80.72,
+          "ci_low": 79.7,
+          "ci_high": 81.85,
+          "boot_sd": 0.544
+        }
+      },
+      "yolov3_sppu": {
+        "MR": {
+          "point": 15.89,
+          "ci_low": 14.98,
+          "ci_high": 16.67,
+          "boot_sd": 0.428
+        },
+        "AP50": {
+          "point": 79.77,
+          "ci_low": 78.81,
+          "ci_high": 80.95,
+          "boot_sd": 0.558
+        }
+      },
+      "yolov3_tinyu": {
+        "MR": {
+          "point": 43.25,
+          "ci_low": 42.14,
+          "ci_high": 44.37,
+          "boot_sd": 0.577
+        },
+        "AP50": {
+          "point": 51.28,
+          "ci_low": 49.89,
+          "ci_high": 52.66,
+          "boot_sd": 0.711
+        }
+      },
+      "yolov3u": {
+        "MR": {
+          "point": 17.42,
+          "ci_low": 16.55,
+          "ci_high": 18.26,
+          "boot_sd": 0.452
+        },
+        "AP50": {
+          "point": 78.58,
+          "ci_low": 77.58,
+          "ci_high": 79.73,
+          "boot_sd": 0.577
+        }
+      },
+      "yolov5lu": {
+        "MR": {
+          "point": 18.13,
+          "ci_low": 17.34,
+          "ci_high": 19.06,
+          "boot_sd": 0.444
+        },
+        "AP50": {
+          "point": 77.7,
+          "ci_low": 76.59,
+          "ci_high": 78.84,
+          "boot_sd": 0.566
+        }
+      },
+      "yolov5mu": {
+        "MR": {
+          "point": 20.38,
+          "ci_low": 19.52,
+          "ci_high": 21.34,
+          "boot_sd": 0.467
+        },
+        "AP50": {
+          "point": 75.4,
+          "ci_low": 74.27,
+          "ci_high": 76.57,
+          "boot_sd": 0.592
+        }
+      },
+      "yolov5nu": {
+        "MR": {
+          "point": 34.61,
+          "ci_low": 33.63,
+          "ci_high": 35.7,
+          "boot_sd": 0.557
+        },
+        "AP50": {
+          "point": 61.04,
+          "ci_low": 59.81,
+          "ci_high": 62.33,
+          "boot_sd": 0.66
+        }
+      },
+      "yolov5su": {
+        "MR": {
+          "point": 25.51,
+          "ci_low": 24.6,
+          "ci_high": 26.54,
+          "boot_sd": 0.512
+        },
+        "AP50": {
+          "point": 70.39,
+          "ci_low": 69.23,
+          "ci_high": 71.6,
+          "boot_sd": 0.616
+        }
+      },
+      "yolov5xu": {
+        "MR": {
+          "point": 15.92,
+          "ci_low": 15.13,
+          "ci_high": 16.76,
+          "boot_sd": 0.424
+        },
+        "AP50": {
+          "point": 79.45,
+          "ci_low": 78.42,
+          "ci_high": 80.59,
+          "boot_sd": 0.569
+        }
+      },
+      "yolov8l": {
+        "MR": {
+          "point": 16.45,
+          "ci_low": 15.63,
+          "ci_high": 17.29,
+          "boot_sd": 0.432
+        },
+        "AP50": {
+          "point": 79.22,
+          "ci_low": 78.27,
+          "ci_high": 80.3,
+          "boot_sd": 0.554
+        }
+      },
+      "yolov8m": {
+        "MR": {
+          "point": 18.98,
+          "ci_low": 18.07,
+          "ci_high": 19.88,
+          "boot_sd": 0.462
+        },
+        "AP50": {
+          "point": 76.56,
+          "ci_low": 75.51,
+          "ci_high": 77.79,
+          "boot_sd": 0.592
+        }
+      },
+      "yolov8n": {
+        "MR": {
+          "point": 35.08,
+          "ci_low": 34.0,
+          "ci_high": 36.27,
+          "boot_sd": 0.562
+        },
+        "AP50": {
+          "point": 61.14,
+          "ci_low": 59.8,
+          "ci_high": 62.4,
+          "boot_sd": 0.656
+        }
+      },
+      "yolov8s": {
+        "MR": {
+          "point": 24.79,
+          "ci_low": 23.8,
+          "ci_high": 25.75,
+          "boot_sd": 0.508
+        },
+        "AP50": {
+          "point": 71.17,
+          "ci_low": 70.06,
+          "ci_high": 72.38,
+          "boot_sd": 0.614
+        }
+      },
+      "yolov8x": {
+        "MR": {
+          "point": 15.97,
+          "ci_low": 15.13,
+          "ci_high": 16.78,
+          "boot_sd": 0.43
+        },
+        "AP50": {
+          "point": 79.66,
+          "ci_low": 78.63,
+          "ci_high": 80.81,
+          "boot_sd": 0.559
+        }
+      },
+      "yolov9c": {
+        "MR": {
+          "point": 17.79,
+          "ci_low": 16.96,
+          "ci_high": 18.66,
+          "boot_sd": 0.434
+        },
+        "AP50": {
+          "point": 77.92,
+          "ci_low": 76.92,
+          "ci_high": 79.03,
+          "boot_sd": 0.566
+        }
+      },
+      "yolov9e": {
+        "MR": {
+          "point": 14.51,
+          "ci_low": 13.77,
+          "ci_high": 15.33,
+          "boot_sd": 0.408
+        },
+        "AP50": {
+          "point": 80.49,
+          "ci_low": 79.51,
+          "ci_high": 81.58,
+          "boot_sd": 0.542
+        }
+      },
+      "yolov9m": {
+        "MR": {
+          "point": 17.65,
+          "ci_low": 16.81,
+          "ci_high": 18.52,
+          "boot_sd": 0.435
+        },
+        "AP50": {
+          "point": 78.04,
+          "ci_low": 76.97,
+          "ci_high": 79.2,
+          "boot_sd": 0.568
+        }
+      },
+      "yolov9s": {
+        "MR": {
+          "point": 24.42,
+          "ci_low": 23.46,
+          "ci_high": 25.38,
+          "boot_sd": 0.498
+        },
+        "AP50": {
+          "point": 71.73,
+          "ci_low": 70.64,
+          "ci_high": 72.87,
+          "boot_sd": 0.607
+        }
+      },
+      "yolov9t": {
+        "MR": {
+          "point": 32.57,
+          "ci_low": 31.53,
+          "ci_high": 33.68,
+          "boot_sd": 0.558
+        },
+        "AP50": {
+          "point": 63.13,
+          "ci_low": 61.85,
+          "ci_high": 64.48,
+          "boot_sd": 0.651
+        }
+      }
+    },
+    "n_boot": 500,
+    "resampling_unit": "image",
+    "note": "images within a NightOwls recording are not independent; this interval understates uncertainty and a sequence-level unit would be preferable where recording ids permit it"
+  }
+}

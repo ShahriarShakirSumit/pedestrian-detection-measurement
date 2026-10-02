@@ -1,0 +1,55 @@
+{
+  "model": "ssd300_vgg16",
+  "dataset": "LLVIP infrared",
+  "seed": 20260822,
+  "schedule": {
+    "epochs": 2,
+    "batch": 2,
+    "grad_accum": 4,
+    "effective_batch": 8,
+    "lr": 0.005,
+    "optimiser": "SGD momentum 0.9, weight decay 1e-4",
+    "amp": true,
+    "augmentation": "horizontal flip only"
+  },
+  "splits": {
+    "train": 10823,
+    "val": 1202,
+    "test": 3463
+  },
+  "note": "the test split is evaluated once, after the schedule was fixed; validation is carved from training images only",
+  "baseline": {
+    "val": {
+      "MR": 81.34,
+      "AP50": 32.31,
+      "recall": 66.79
+    },
+    "test": {
+      "MR": 69.07,
+      "AP50": 52.68,
+      "recall": 83.84
+    }
+  },
+  "training": {
+    "seconds": 451.0,
+    "optimiser_steps": 2704,
+    "peak_alloc_MiB": 643
+  },
+  "finetuned": {
+    "val": {
+      "MR": 18.62,
+      "AP50": 93.88,
+      "recall": 98.42
+    },
+    "test": {
+      "MR": 20.99,
+      "AP50": 91.66,
+      "recall": 98.42
+    }
+  },
+  "improvement": {
+    "val_MR_delta": 62.71,
+    "test_MR_delta": 48.08,
+    "test_recall_delta": 14.59
+  }
+}

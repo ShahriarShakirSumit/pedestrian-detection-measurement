@@ -1,0 +1,55 @@
+{
+  "model": "fcos_r50_fpn",
+  "dataset": "LLVIP visible",
+  "seed": 20260822,
+  "schedule": {
+    "epochs": 2,
+    "batch": 2,
+    "grad_accum": 4,
+    "effective_batch": 8,
+    "lr": 0.005,
+    "optimiser": "SGD momentum 0.9, weight decay 1e-4",
+    "amp": true,
+    "augmentation": "horizontal flip only"
+  },
+  "splits": {
+    "train": 10823,
+    "val": 1202,
+    "test": 3463
+  },
+  "note": "the test split is evaluated once, after the schedule was fixed; validation is carved from training images only",
+  "baseline": {
+    "val": {
+      "MR": 68.65,
+      "AP50": 47.7,
+      "recall": 62.75
+    },
+    "test": {
+      "MR": 49.28,
+      "AP50": 68.14,
+      "recall": 82.06
+    }
+  },
+  "training": {
+    "seconds": 1804.6,
+    "optimiser_steps": 2704,
+    "peak_alloc_MiB": 2519
+  },
+  "finetuned": {
+    "val": {
+      "MR": 20.36,
+      "AP50": 92.85,
+      "recall": 97.83
+    },
+    "test": {
+      "MR": 29.45,
+      "AP50": 88.88,
+      "recall": 97.88
+    }
+  },
+  "improvement": {
+    "val_MR_delta": 48.3,
+    "test_MR_delta": 19.82,
+    "test_recall_delta": 15.82
+  }
+}

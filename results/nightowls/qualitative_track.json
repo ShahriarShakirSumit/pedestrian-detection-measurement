@@ -1,0 +1,136 @@
+{
+ "track_id": 7000220,
+ "detectors": [
+  "yolo12s",
+  "yolo26s"
+ ],
+ "operating_point": {
+  "score": 0.5,
+  "iou": 0.5
+ },
+ "n_frames": 9,
+ "hits": {
+  "yolo12s": 4,
+  "yolo26s": 4
+ },
+ "longest_miss_run": {
+  "yolo12s": 2,
+  "yolo26s": 5
+ },
+ "equal_miss_count": true,
+ "enumeration_reproduced": {
+  "pairs_same_k": 84703,
+  "of_which_diff_r": 4483,
+  "max_divergence_frames": 39
+ },
+ "frames": [
+  {
+   "image_id": 7004736,
+   "file_name": "58c580dbbc26013448bf2236.png",
+   "bbox": [
+    660,
+    275,
+    17,
+    51
+   ],
+   "yolo12s": true,
+   "yolo26s": true
+  },
+  {
+   "image_id": 7004737,
+   "file_name": "58c580dbbc26013448bf2239.png",
+   "bbox": [
+    666,
+    278,
+    17,
+    52
+   ],
+   "yolo12s": false,
+   "yolo26s": true
+  },
+  {
+   "image_id": 7004738,
+   "file_name": "58c580dbbc26013448bf223d.png",
+   "bbox": [
+    672,
+    279,
+    18,
+    55
+   ],
+   "yolo12s": true,
+   "yolo26s": true
+  },
+  {
+   "image_id": 7004739,
+   "file_name": "58c580dbbc26013448bf2242.png",
+   "bbox": [
+    682,
+    267,
+    21,
+    59
+   ],
+   "yolo12s": false,
+   "yolo26s": false
+  },
+  {
+   "image_id": 7004740,
+   "file_name": "58c580dbbc26013448bf2248.png",
+   "bbox": [
+    695,
+    271,
+    20,
+    60
+   ],
+   "yolo12s": false,
+   "yolo26s": false
+  },
+  {
+   "image_id": 7004741,
+   "file_name": "58c580dbbc26013448bf224f.png",
+   "bbox": [
+    717,
+    268,
+    22,
+    65
+   ],
+   "yolo12s": true,
+   "yolo26s": false
+  },
+  {
+   "image_id": 7004742,
+   "file_name": "58c580dbbc26013448bf2257.png",
+   "bbox": [
+    753,
+    262,
+    26,
+    75
+   ],
+   "yolo12s": false,
+   "yolo26s": false
+  },
+  {
+   "image_id": 7004743,
+   "file_name": "58c580dbbc26013448bf2260.png",
+   "bbox": [
+    803,
+    256,
+    26,
+    89
+   ],
+   "yolo12s": false,
+   "yolo26s": false
+  },
+  {
+   "image_id": 7004744,
+   "file_name": "58c580dbbc26013448bf226a.png",
+   "bbox": [
+    874,
+    249,
+    30,
+    108
+   ],
+   "yolo12s": true,
+   "yolo26s": true
+  }
+ ]
+}
